@@ -22,5 +22,10 @@
     <string name="refresh_default">Default</string>
     <string name="refresh_standard">Standard (60Hz)</string>
     <string name="refresh_high">High (90Hz)</string>
+    
+    <!-- Dolby -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Setting Dolby Atmos</string>
+    
     <string name="ambient_enable">Use ambient display</string>
 </resources>
