@@ -1224,3 +1224,8 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.everpal
     class hal
     user nfc
     group nfc
+
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk
+    chmod 440 /proc/net/unix
