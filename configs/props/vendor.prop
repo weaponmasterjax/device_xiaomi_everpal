@@ -112,6 +112,7 @@ ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
+ro.hwui.render_ahead=10
 
 #VSYNC durations for high fps
 debug.sf.high_fps.late.sf.duration=13800000
