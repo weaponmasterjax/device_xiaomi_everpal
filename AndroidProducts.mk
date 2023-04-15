@@ -18,7 +18,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_everpal.mk \
     $(LOCAL_DIR)/octavi_everpal.mk \
     $(LOCAL_DIR)/spark_everpal.mk \
-    $(LOCAL_DIR)/superior_everpal.mk
+    $(LOCAL_DIR)/superior_everpal.mk \
+    $(LOCAL_DIR)/awaken_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
     aicp_everpal-user \
@@ -62,4 +63,7 @@ COMMON_LUNCH_CHOICES := \
     spark_everpal-eng \
     superior_everpal-user \
     superior_everpal-userdebug \
-    superior_everpal-eng
+    superior_everpal-eng \
+    awaken_everpal-user \
+    awaken_everpal-userdebug \
+    awaken_everpal-eng
