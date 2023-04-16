@@ -428,18 +428,9 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayEverpal \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
 
-ifeq ($(PRODUCT_NAME),evolution_everpal)
-    PRODUCT_PACKAGES += \
-        EvolutionSettingsResEverpal \
-        EvolutionFrameworksResEverpal
-else
-    PRODUCT_PACKAGES += \
-        FrameworksResOverlayEverpal \
-        SettingsOverlayEverpal 
-endif
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-bliss
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
