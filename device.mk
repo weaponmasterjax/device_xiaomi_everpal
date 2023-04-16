@@ -428,6 +428,12 @@ else
     PRODUCT_PACKAGES += \
         FrameworksResOverlayEverpal \
         SettingsOverlayEverpal 
+
+endif
+
+ifeq ($(PRODUCT_NAME),bliss_everpal)
+    DEVICE_PACKAGE_OVERLAYS += \
+        $(LOCAL_PATH)/overlay-bliss
 endif
 
 # Screen Resolution
