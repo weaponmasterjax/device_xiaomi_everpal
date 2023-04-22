@@ -441,6 +441,11 @@ ifeq ($(PRODUCT_NAME),bliss_everpal)
         $(LOCAL_PATH)/overlay-bliss
 endif
 
+ifeq ($(PRODUCT_NAME),aosp_everpal)
+    DEVICE_PACKAGE_OVERLAYS += \
+        $(LOCAL_PATH)/overlay-pex
+endif
+
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
