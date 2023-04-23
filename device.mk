@@ -430,10 +430,17 @@ ifeq ($(PRODUCT_NAME),evolution_everpal)
         EvolutionSettingsResEverpal \
         EvolutionFrameworksResEverpal
 else
-    PRODUCT_PACKAGES += \
-        FrameworksResOverlayEverpal \
-        SettingsOverlayEverpal 
-
+    ifneq ($(PRODUCT_NAME),aosp_everpal)  
+        PRODUCT_PACKAGES += \
+            FrameworksResOverlayEverpal \
+            SettingsOverlayEverpal
+    else
+        DEVICE_PACKAGE_OVERLAYS += \
+            $(LOCAL_PATH)/overlay-pex
+        PRODUCT_PACKAGES += \
+            PexFrameworksResOverlayEverpal \
+            PexSettingsOverlayEverpal 
+    endif
 endif
 
 ifeq ($(PRODUCT_NAME),bliss_everpal)
@@ -441,10 +448,7 @@ ifeq ($(PRODUCT_NAME),bliss_everpal)
         $(LOCAL_PATH)/overlay-bliss
 endif
 
-ifeq ($(PRODUCT_NAME),aosp_everpal)
-    DEVICE_PACKAGE_OVERLAYS += \
-        $(LOCAL_PATH)/overlay-pex
-endif
+
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
