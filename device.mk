@@ -16,6 +16,8 @@ $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
+
 # Silence vendor logspam
 include $(LOCAL_PATH)/configs/props/vendor_logtags.mk
 
