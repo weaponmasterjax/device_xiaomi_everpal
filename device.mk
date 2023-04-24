@@ -132,9 +132,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
 
-#PRODUCT_PACKAGES += \
-#   Aperture
-# we use miui ones
+PRODUCT_PACKAGES += \
+    Aperture
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
