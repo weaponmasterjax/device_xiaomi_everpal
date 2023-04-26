@@ -763,7 +763,7 @@
 
     <!-- The default refresh rate. sweet manages this using the peak refresh rate setting, so set
          this value to 0 so it has no effect. -->
-    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRate">60</integer>
 
     <!-- The default peak refresh rate. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
