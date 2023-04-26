@@ -425,22 +425,17 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-pex
+
 ifeq ($(PRODUCT_NAME),evolution_everpal)
     PRODUCT_PACKAGES += \
         EvolutionSettingsResEverpal \
         EvolutionFrameworksResEverpal
 else
-    ifneq ($(PRODUCT_NAME),aosp_everpal)  
-        PRODUCT_PACKAGES += \
-            FrameworksResOverlayEverpal \
-            SettingsOverlayEverpal
-    else
-        DEVICE_PACKAGE_OVERLAYS += \
-            $(LOCAL_PATH)/overlay-pex
-        PRODUCT_PACKAGES += \
-            PexFrameworksResOverlayEverpal \
-            PexSettingsOverlayEverpal 
-    endif
+    PRODUCT_PACKAGES += \
+        FrameworksResOverlayEverpal \
+        SettingsOverlayEverpal
 endif
 
 ifeq ($(PRODUCT_NAME),bliss_everpal)
