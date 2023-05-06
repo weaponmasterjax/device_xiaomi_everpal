@@ -365,7 +365,8 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.enableswap \
-    fstab.mt6833
+    fstab.mt6833 \
+    fstab.mt6833.ramdisk
 
 PRODUCT_PACKAGES += \
     init.connectivity.rc \
