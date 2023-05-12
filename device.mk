@@ -417,6 +417,9 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-pex
+
 ifeq ($(PRODUCT_NAME),evolution_everpal)
     PRODUCT_PACKAGES += \
         EvolutionSettingsResEverpal \
@@ -424,7 +427,7 @@ ifeq ($(PRODUCT_NAME),evolution_everpal)
 else
     PRODUCT_PACKAGES += \
         FrameworksResOverlayEverpal \
-        SettingsOverlayEverpal 
+        SettingsOverlayEverpal
 endif
 
 # Screen Resolution
