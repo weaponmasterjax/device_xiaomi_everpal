@@ -325,7 +325,7 @@
      <integer name="config_shutdownBatteryTemperature">600</integer>
 
     <!-- Delay that allows some content to arrive at the display before switching from DOZE to ON, in millis. -->
-     <integer name="config_wakeUpDelayDoze">32</integer>
+     <integer name="config_wakeUpDelayDoze">50</integer>
 
     <!-- See AmbientSensor.AmbientColorTemperatureSensor.
          The ambient color temperature sensor name. -->
@@ -351,6 +351,12 @@
      <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
      <string name="config_qualified_networks_service_package">com.android.phone</string>
 
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- Flag indicating whether we should enable smart battery. -->
+    <bool name="config_smart_battery_available">true</bool>
     <!-- Configure wifi tcp buffersizes in the form:
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
      <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string>
