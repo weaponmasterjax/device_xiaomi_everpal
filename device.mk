@@ -484,7 +484,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.everpal
+    android.hardware.vibrator-service-awinic
 
 # VNDK
 PRODUCT_PACKAGES += \
