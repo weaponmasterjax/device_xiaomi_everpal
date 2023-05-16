@@ -477,7 +477,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.everpal
+    android.hardware.vibrator-service-awinic
 
 # VNDK
 PRODUCT_PACKAGES += \
