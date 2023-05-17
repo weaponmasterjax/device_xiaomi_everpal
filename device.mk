@@ -356,12 +356,6 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    factory_init.connectivity.common.rc \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc
-
-PRODUCT_PACKAGES += \
     fstab.enableswap \
     fstab.mt6833 \
     fstab.mt6833.ramdisk
@@ -377,20 +371,7 @@ PRODUCT_PACKAGES += \
     init_connectivity.rc
 
 PRODUCT_PACKAGES += \
-    meta_init.connectivity.common.rc \
-    meta_init.connectivity.rc \
-    meta_init.modem.rc \
-    meta_init.project.rc \
-    meta_init.rc
-
-PRODUCT_PACKAGES += \
-    multi_init.rc
-
-PRODUCT_PACKAGES += \
     ueventd.mt6833.rc
-
-PRODUCT_PACKAGES += \
-    init.insmod.sh
 
 # RCS
 PRODUCT_PACKAGES += \
