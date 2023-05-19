@@ -52,7 +52,12 @@ void set_variant_props(const variant_info_t variant) {
         property_override("ro.build.product", variant.device);
         property_override("ro.build.description", fingerprint_to_description(variant.build_fingerprint));
     }
-
+    if (access("/system/bin/recovery", F_OK) == 0) {
+        property_override("ro.adb.secure", "0");
+        property_override("ro.debuggable", "1");
+        property_override("ro.adb.secure.recovery", "0");
+        property_override("persist.sys.usb.config", "adb");
+    }
     // Set product cert & system model
     if (variant.bid_value == "S98016AA1") {
         property_override(PRODC_PROP, "21091116AI");
