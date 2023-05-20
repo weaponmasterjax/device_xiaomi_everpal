@@ -975,8 +975,6 @@ vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/lib/hw/gps.default.so
-vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 -vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mediatek.xml
 -vendor/etc/vintf/manifest/gnss@2.1-service.xml
