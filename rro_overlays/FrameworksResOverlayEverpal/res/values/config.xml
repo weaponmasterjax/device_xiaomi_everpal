@@ -30,12 +30,6 @@
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
      <bool name="config_automatic_brightness_available">true</bool>
 
-    <!-- Boolean indicating if current platform supports HFP inband ringing -->
-     <bool name="config_bluetooth_hfp_inband_ringing_support">false</bool>
-
-    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
-     <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
-
     <!-- Whether camera shutter sound is forced or not  (country specific). -->
      <bool name="config_camera_sound_forced">false</bool>
 
@@ -177,7 +171,7 @@
      <bool name="config_speed_up_audio_on_mt_calls">false</bool>
 
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
-     <bool name="config_supportAudioSourceUnprocessed">false</bool>
+     <bool name="config_supportAudioSourceUnprocessed">true</bool>
 
     <!-- Whether device supports double tap to wake -->
      <bool name="config_supportDoubleTapWake">true</bool>
@@ -233,12 +227,17 @@
      <bool name="skip_restoring_network_selection">true</bool>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
+     <integer name="config_sidefpsBpPowerPressWindow">400</integer>
     <!-- Enables or disables fading edges when marquee is enabled in TextView.
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
-    <bool name="config_ui_enableFadingMarquee">true</bool>
+     <bool name="config_ui_enableFadingMarquee">true</bool>
+
+    <!-- Pocket Lock -->
+     <bool name="config_pocketModeSupported">false</bool>
+     <bool name="config_pocketUseLightSensor">false</bool>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
@@ -770,6 +769,15 @@
 
     <!-- The default peak refresh rate. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
+
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_smartChargingResumeValue" translatable="false">0</string>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">false</bool>
 
     <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
