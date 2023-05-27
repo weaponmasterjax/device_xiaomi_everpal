@@ -407,6 +407,8 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayEverpal \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
 
 ifeq ($(PRODUCT_NAME),evolution_everpal)
     PRODUCT_PACKAGES += \
