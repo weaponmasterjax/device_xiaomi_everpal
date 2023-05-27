@@ -25,6 +25,7 @@ TARGET_CORE_GMS := false
 TARGET_USE_GOOGLE_TELEPHONY := false
 RISING_CHIPSET := "MT6833"
 RISING_MAINTAINER := "weaponmasterjax"
+RISING_OFFICIAL := true
 WITH_GMS := true
 
 # Device identifier. This must come after all inclusions
