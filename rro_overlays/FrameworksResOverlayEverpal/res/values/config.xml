@@ -229,7 +229,6 @@
     <!-- Indicates whether device has a power button fingerprint sensor. -->
      <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
-     <integer name="config_sidefpsBpPowerPressWindow">400</integer>
     <!-- Enables or disables fading edges when marquee is enabled in TextView.
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
