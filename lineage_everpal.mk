@@ -15,7 +15,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/everpal/device.mk)
 
 # RisingOS Stuff
-TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_ENABLE_BLUR := true
