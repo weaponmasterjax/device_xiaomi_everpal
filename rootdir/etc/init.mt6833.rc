@@ -573,8 +573,9 @@ on post-fs-data
     chown root system /dev/sec
 
     # FM Radio device node
-    chmod 0660 /dev/fm
-    chown media media /dev/fm
+    chmod 0666 /dev/fm
+    chown system system /dev/fm
+    chmod 0777 /sys/class/fm/fm/lan_enable
 
     # device apc settings
 
