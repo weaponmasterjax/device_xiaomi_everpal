@@ -416,6 +416,8 @@ PRODUCT_COPY_FILES += \
 # FM
 PRODUCT_PACKAGES += \
     RevampedFMRadio
+PRODUCT_PACKAGES += \
+    libfmjni
 
 # Runtime Resource (RRO) Overlays
 PRODUCT_PACKAGES += \
