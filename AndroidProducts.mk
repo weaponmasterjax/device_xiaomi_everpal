@@ -60,8 +60,6 @@ COMMON_LUNCH_CHOICES := \
     spark_everpal-user \
     spark_everpal-userdebug \
     spark_everpal-eng \
-    superior_everpal-user \
-    superior_everpal-userdebug \
     bliss_everpal-user \
     bliss_everpal-userdebug \
     bliss_everpal-eng
