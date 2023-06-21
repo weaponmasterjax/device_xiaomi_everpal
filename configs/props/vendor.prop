@@ -14,6 +14,7 @@ aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
 persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
+persist.bluetooth.system_audio_hal.enabled=true
 vendor.audio.ultrasound.log=0
 vendor.audio.ultrasound.mode=0
 vendor.audiohal.telephonytx.type=2
