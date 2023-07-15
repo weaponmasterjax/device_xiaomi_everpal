@@ -397,7 +397,7 @@ PRODUCT_COPY_FILES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    RevampedFMRadio
+    FMRadio
 PRODUCT_PACKAGES += \
     libfmjni
 
