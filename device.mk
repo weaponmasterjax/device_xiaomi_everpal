@@ -130,6 +130,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
+PRODUCT_PACKAGES += \
+    Aperture
 
 # CAS
 PRODUCT_PACKAGES += \
