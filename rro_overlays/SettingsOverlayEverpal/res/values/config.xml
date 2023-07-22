@@ -48,4 +48,8 @@
     <!-- Indicates whether device has a side mounted fingerprint sensor,
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">true</bool>
+    <string name="pex_maintainer">Jax Su</string>
+    <string name="pex_maintainer_name" translatable="false">Jax Su(weaponmasterjax)</string>
+    <string name="pex_maintainer_group" translatable="false">https://t.me/mt6833unified_chat</string>
+
 </resources>
