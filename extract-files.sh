@@ -85,6 +85,9 @@ function blob_fixup {
     lib64/libsink.so)
         "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
         ;;
+    vendor/bin/mi_thermald)
+        sed -i 's/%d\/on/%d\/../g' "${2}"
+        ;;
     esac
 }
 
