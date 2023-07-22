@@ -467,6 +467,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.everpal
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # VNDK
 PRODUCT_PACKAGES += \
     libcrypto-v32 \
