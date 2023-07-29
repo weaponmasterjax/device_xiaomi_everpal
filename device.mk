@@ -105,8 +105,8 @@ endif
 
 # Alarm
 PRODUCT_PACKAGES += \
-    PowerOffAlarm
-
+    PowerOffAlarm \
+    DeskClock
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
