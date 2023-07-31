@@ -804,13 +804,10 @@
     <integer name="config_defaultPeakRefreshRate">90</integer>
 
     <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">true</bool>
-    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_smartChargingResumeValue" translatable="false">0</string>
-
+    <bool name="config_smartChargingAvailable">false</bool>
+    
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">false</bool>
+    <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Array of ConnectivityManager.TYPE_xxxx values allowable for tethering -->
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
