@@ -6,5 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">Weaponmaster JAX</string>
-    <string name="build_maintainer_telegram">https://t.me/mt6833unified_chat</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_device_url">https://t.me/mt6833unified_chat</string>
+    <string name="build_maintainer_donate_url">https://www.patreon.com/mmtrt</string>
 </resources>
