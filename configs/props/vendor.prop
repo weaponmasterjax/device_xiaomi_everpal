@@ -52,6 +52,7 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 vendor.bluetooth.ldac.abr=true
+bluetooth.hci.disabled_commands=377
 
 # Camera
 camera.disable_zsl_mode=1
