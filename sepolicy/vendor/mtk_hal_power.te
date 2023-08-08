@@ -8,6 +8,7 @@ allow mtk_hal_camera camera_vendor_data_file:file create_file_perms;
 
 allow mtk_hal_power input_device:chr_file { ioctl open read write };
 allow mtk_hal_power input_device:dir { open read };
+allow mtk_hal_power input_device:dir { search };
 
 set_prop(mtk_hal_camera, vendor_camera_prop)
 get_prop(mtk_hal_camera, vendor_camera_prop)
