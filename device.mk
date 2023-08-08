@@ -16,6 +16,9 @@ $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Silence vendor logspam
 include $(LOCAL_PATH)/configs/props/vendor_logtags.mk
 
@@ -129,6 +132,9 @@ PRODUCT_PACKAGES += \
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
+
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Certs
 PRODUCT_COPY_FILES += \

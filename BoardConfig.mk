@@ -81,7 +81,6 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_everpal
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_BASE := 0x40078000
@@ -165,8 +164,8 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
