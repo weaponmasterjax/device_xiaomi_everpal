@@ -338,6 +338,10 @@
          The ambient color temperature sensor name. -->
      <string name="config_displayWhiteBalanceColorTemperatureSensorName">com.google.sensor.color</string>
 
+    <!-- Maximum color temperature, in Kelvin, supported by Night display.
+         Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
+    <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
          try to start this dream if possible.  The dream should typically call startDozing()
