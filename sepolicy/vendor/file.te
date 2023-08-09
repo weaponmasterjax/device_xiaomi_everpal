@@ -9,3 +9,6 @@ type vendor_fingerprint_device, fs_type, sysfs_type;
 
 # PPS
 type pps_socket, file_type;
+
+# PPM
+type proc_ppm, fs_type, proc_type;
