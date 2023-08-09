@@ -229,12 +229,6 @@
     <!-- Indicates whether device has a power button fingerprint sensor. -->
      <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
-    <!-- Should we listen for fingerprints when the screen is off?  Devices
-         with a rear-mounted sensor want this, but certain devices have
-         the sensor embedded in the power key and listening all the time
-         causes a poor experience. -->
-    <bool name="config_fingerprintWakeAndUnlock">false</bool>
-
     <!-- Enables or disables fading edges when marquee is enabled in TextView.
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
