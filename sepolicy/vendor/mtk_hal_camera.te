@@ -1,6 +1,10 @@
 allow mtk_hal_camera camera_persist_file:dir rw_dir_perms;
 allow mtk_hal_camera camera_persist_file:file create_file_perms;
 
+allow mtk_hal_camera default_prop:file { getattr map open read };
+allow mtk_hal_camera sysfs_fpsgo:dir search;
+allow mtk_hal_camera sysfs_fpsgo:file { open write };
+
 allow mtk_hal_camera persist_data_file:dir r_dir_perms;
 allow mtk_hal_camera proc_stat:file r_file_perms;
 
