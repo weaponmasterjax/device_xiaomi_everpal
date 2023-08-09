@@ -1,0 +1,1 @@
+allow mtk_hal_audio hal_sensors_default:binder transfer;
