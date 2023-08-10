@@ -1,0 +1,5 @@
+allow wlan_assistant gsi_metadata_file:dir search;
+allow wlan_assistant sysfs_boot_mode:file { open read };
+allow wlan_assistant sysfs_dt_firmware_android:dir search;
+allow wlan_assistant sysfs_dt_firmware_android:file { getattr open read };
+allow wlan_assistant vendor_mtk_radio_prop:property_service set;
