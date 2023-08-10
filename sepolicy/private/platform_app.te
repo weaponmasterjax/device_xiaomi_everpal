@@ -1,2 +1,0 @@
-allow platform_app adb_data_file:file { map open read getattr };
-allow platform_app self:dir write;

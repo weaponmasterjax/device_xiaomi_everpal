@@ -1,2 +1,0 @@
-allow untrusted_app_30 sysfs_batteryinfo:dir search;
-allow untrusted_app_30 sysfs_batteryinfo:file { getattr open read };

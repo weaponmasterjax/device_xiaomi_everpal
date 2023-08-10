@@ -1,2 +1,0 @@
-allow untrusted_app proc_net_tcp_udp:file { getattr open read };
-allow untrusted_app unlabeled:filesystem getattr;
