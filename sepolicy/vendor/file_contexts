@@ -19,9 +19,3 @@
 
 # Vibrator
 /vendor/bin/hw/android\.hardware\.vibrator-service-awinic       u:object_r:hal_vibrator_default_exec:s0
-
-# Blkid
-/system/bin/blkid       u:object_r:blkid_exec:s0
-
-# App data
-/data/data/.*		u:object_r:app_data_file:s0
