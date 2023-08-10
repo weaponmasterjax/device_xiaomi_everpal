@@ -1,3 +1,9 @@
 get_prop(vendor_init, vts_status_prop)
 
 set_prop(vendor_init, vendor_mtk_powerhal_prop)
+
+allow vendor_init proc:file { write create };
+allow vendor_init default_prop:file { getattr map open read };
+
+allow vendor_init sysfs:dir add_name;
+allow vendor_init sysfs:file create;

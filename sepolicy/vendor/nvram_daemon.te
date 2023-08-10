@@ -1,0 +1,2 @@
+allow nvram_daemon vendor_data_file:file { getattr open read write };
+allow nvram_daemon vendor_mtk_radio_prop:property_service set;
