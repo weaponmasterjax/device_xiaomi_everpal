@@ -1,2 +1,0 @@
-type proc_perfmgr;
-allow proc_perfmgr proc:filesystem associate;
