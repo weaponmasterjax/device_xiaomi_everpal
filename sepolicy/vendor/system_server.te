@@ -1,1 +1,2 @@
 allow system_server init:binder call;
+allow system_server init:binder transfer;
