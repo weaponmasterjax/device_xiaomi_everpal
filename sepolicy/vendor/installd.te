@@ -1,4 +1,0 @@
-allow installd adb_data_file:file { execute execute_no_trans getattr map open read };
-allow installd apex_art_data_file:dir search;
-allow installd apex_info_file:file { getattr open read };
-allow installd dex2oat:unix_stream_socket connectto;
