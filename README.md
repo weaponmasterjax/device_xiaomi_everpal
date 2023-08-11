@@ -21,5 +21,5 @@ Battery | Non-removable Li-Po 5000 mAh battery
 Display | 1080 x 2400 pixels, 6.6 inches, 30/50/60/90 hz, IPS LCD
 
 ## Device picture
-![Redmi Note 11T 5G](https://i02.appmifile.com/519_operator_sg/01/12/2021/d6c18479fd17cc24fb7c1e0e0d0d31e1.jpg)
+![Redmi Note 11T 5G](https://i02.appmifile.com/18_operator_sg/30/11/2021/d2faf80e08dc6f591445ea331d8877cd.jpg)
 Tree based on work of @sushrut1101 @mmtrt @rio004 - all credits belong to them.
