@@ -1,3 +1,2 @@
 allow system_server init:binder call;
 allow system_server init:binder transfer;
-allow system_server environ_system_data_file:dir getattr;
