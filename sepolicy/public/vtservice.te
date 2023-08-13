@@ -1,3 +1,0 @@
-allow vtservice vendor_default_prop:file { getattr  map  open  read };
-allow vtservice radio_service:service_manager find;
-allow vtservice vtservice_service:service_manager add;
