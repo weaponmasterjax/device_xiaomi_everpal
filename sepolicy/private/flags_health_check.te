@@ -88,7 +88,6 @@ allow flags_health_check media_wfd_prop:file { getattr  map  open };
 allow flags_health_check mm_events_config_prop:file { getattr  map  open };
 allow flags_health_check mmc_prop:file { getattr  map  open };
 allow flags_health_check mock_ota_prop:file { getattr  map  open };
-allow flags_health_check net_464xlat_fromvendor_prop:file { getattr  map  open };
 allow flags_health_check net_connectivity_prop:file { getattr  map  open };
 allow flags_health_check net_dns_prop:file { getattr  map  open };
 allow flags_health_check netd_stable_secret_prop:file { getattr  map  open };
@@ -216,8 +215,6 @@ allow flags_health_check traced_enabled_prop:file { open };
 allow flags_health_check traced_lazy_prop:file { open };
 allow flags_health_check traced_oome_heap_session_count_prop:file { open };
 allow flags_health_check traced_perf_enabled_prop:file { open };
-allow flags_health_check v
-:file { map };
 allow flags_health_check vehicle_hal_prop:file { getattr  open };
 allow flags_health_check vendor_camera_prop:file { open };
 allow flags_health_check vendor_default_prop:file { getattr  open };
@@ -234,7 +231,6 @@ allow flags_health_check vendor_mtk_ctl_ccci2_rpcd_prop:file { getattr  map  ope
 allow flags_health_check vendor_mtk_ctl_ccci3_fsd_prop:file { getattr  open };
 allow flags_health_check vendor_mtk_ctl_ccci_rpcd_prop:file { getattr  open };
 allow flags_health_check vendor_mtk_ctl_fusion_ril_mtk_prop:file { open };
-allow flags_health_check vendor_mtk_ctl_gsm0710muxd_prop:file { getattr };
 allow flags_health_check vendor_mtk_ctl_ril-daemon-mtk_prop:file { getattr  map  open };
 allow flags_health_check vendor_mtk_ctl_ril-proxy_prop:file { getattr  open };
 allow flags_health_check vendor_mtk_ctl_viarild_prop:file { open };
