@@ -1,4 +1,3 @@
-type blkid_exec, exec_type, file_type;
 allow init fingerprint_device:chr_file ioctl;
 allow init teei_fp_device:chr_file { ioctl open read write };
 allow init system_server:binder call;
@@ -17,7 +16,6 @@ allow init sysfs_devices_block:file { open write };
 allow init uhid_device:chr_file { ioctl open write };
 allow init vendor_file:file { execute execute_no_trans };
 allow init vndbinder_device:chr_file { ioctl map open read write };
-allow init blkid_exec:file { getattr };
 allow init default_android_hwservice:hwservice_manager { add  find };
 allow init dnsmasq_exec:file { getattr };
 allow init hal_dumpstate_hwservice:hwservice_manager { add  find };
