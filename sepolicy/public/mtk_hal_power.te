@@ -1,0 +1,1 @@
+allow mtk_hal_power input_device:dir { search };
