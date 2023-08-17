@@ -425,7 +425,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     FrameworksResOverlayEverpal \
-    SettingsOverlayEverpal
+    SettingsOverlayEverpal \
+    UpdatesReseverpal
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
