@@ -33,6 +33,9 @@ debug.sf.enable_transaction_tracing=false
 # Keylayout
 qemu.hw.mainkeys=0
 
+# Render
+debug.cpurend.vsync=false
+
 # RIL
 vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
