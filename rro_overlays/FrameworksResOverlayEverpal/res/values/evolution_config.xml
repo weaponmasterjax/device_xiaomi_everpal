@@ -19,4 +19,6 @@
 <resources>
     <!-- Boost Framework -->
     <bool name="config_supportsBoostFramework">false</bool>
+    <!-- Parallel space max count. Should overlay according to device performance. -->
+    <integer name="config_parallelSpaceMaxCount">5</integer>
 </resources>
