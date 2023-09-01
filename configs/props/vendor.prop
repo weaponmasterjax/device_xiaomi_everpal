@@ -33,9 +33,6 @@ ro.vendor.mtk_hifiaudio_support=1
 # Codec
 debug.stagefright.omx_default_rank=0
 
-# FM
-ro.vendor.builtin_fm_antenna_support=1
-
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3700
