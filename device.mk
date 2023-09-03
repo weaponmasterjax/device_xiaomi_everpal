@@ -357,10 +357,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor:64 \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
 
+# GNSS
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    $(LOCAL_PATH)/configs/perf/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-    $(LOCAL_PATH)/configs/perf/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
+    $(LOCAL_PATH)/configs/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
