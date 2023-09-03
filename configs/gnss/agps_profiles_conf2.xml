@@ -202,7 +202,9 @@
       tls="true"
       mcc="460"
       supl_version="2"
-
+      tls_version="1"
+      sha_version="0"
+      esupl_apn_mode="3"
   />
 
   <!-- Telstra -->
@@ -260,6 +262,14 @@
       port="7275"
       tls="true"
   />
+
+  <!-- Japan use Rakuten-->
+  <supl_profile name="Rakuten"
+       addr="supl.rm-n.jp"
+       port="7275"
+       tls="true"
+   />
+
 
   <!-- Vodafone -->
   <supl_profile name="Vodafone"
@@ -350,6 +360,14 @@
       supl_version="1"
       tls_version="2"
       sha_version="1"
+      />
+  <!--Peru. Auto config HSLP based on IMSI -->
+  <supl_profile name="Entel"
+      addr=""
+      port="7275"
+      tls="true"
+      mcc="716"
+      supl_version="2"
   />
 
   <!-- nlp_profile
@@ -500,8 +518,12 @@
         * available value: 10 ~ 500, default is 200
 
     lppe_dbh_cache_max_age:
-        The max age (in seconds) of cached GNSS / network Locations
+        The max age (in seconds) of cached network Locations
         available value: 1 ~ 1023, default is 120 (= 2 minutes)
+
+    lppe_dbh_gnss_cache_max_age:
+        The max age (in seconds) of cached GNSS Locations
+        available value: 1 ~ 1023, default is 10 (= 10 seconds)
 
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
         * to decide if we can use GNSS location to fill LPPe DBH when no network location
@@ -529,6 +551,7 @@
     lppe_dbh_nlp_accuracy_level_a="2000"
     lppe_dbh_nlp_accuracy_level_b="2000"
     lppe_dbh_cache_max_age="1024"
+    lppe_dbh_gnss_cache_max_age="1024"
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
   />
 
@@ -976,8 +999,8 @@
     up_lppe_enable="true"
     esupl_apn_mode="0"
     tcp_keepalive="4"
-    aosp_profile_enable="false"
-    bind_nlp_setting_to_supl="false"
+    aosp_profile_enable="true"
+    bind_nlp_setting_to_supl="true"
     up_lppe_wlan_enable="true"
     up_lppe_srn_enable="true"
     up_lppe_sensor_enable="true"
@@ -986,7 +1009,7 @@
     up_lpp_in_2g3g_disable="false"
     up_rrlp_in_4g_disable="false"
     up_si_disable="false"
-    aosp_pos_mode_enable="false"
+    aosp_pos_mode_enable="true"
     privacy_override_mode="0"
     operation_mode="0"
     glonass_msa_enable="true"
@@ -1127,13 +1150,19 @@
   <carrier_mapping name="Entel_Peru">
     <mcc_mnc
       v1="71617"
-      />
+    />
   </carrier_mapping>
   <carrier_mapping name="CT">
     <mcc_mnc
-      v1="46001"
-      v2="460"
+      v1="46011"
+      v2="46003"
+      v3="46000"
+      v4="46001"
+      v5="46002"
+      v6="46005"
+      v7="46006"
+      v8="46007"
+      v9="46020"
     />
-
   </carrier_mapping>
 </mtk_agps_profiles>
