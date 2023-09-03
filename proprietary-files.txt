@@ -2124,3 +2124,6 @@ vendor/lib64/s5kjn1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/wechat.beanpod.so
+
+# FM Radio
+-system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
