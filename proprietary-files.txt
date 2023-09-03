@@ -2729,3 +2729,6 @@ vendor/res/images/lcd_test_02.png
 vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
 vendor/ro.prop
+
+# FM Radio
+-system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
