@@ -21,12 +21,5 @@
     <bool name="config_supportsBoostFramework">false</bool>
     <!-- Parallel space max count. Should overlay according to device performance. -->
     <integer name="config_parallelSpaceMaxCount">5</integer>
-    <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">true</bool>
-    <integer name="config_smartChargingBatteryLevel">80</integer>
-    <integer name="config_smartChargingBatteryResumeLevel">60</integer>
-    <!-- Smart charge sysfs node and value for suspend/resume charging-->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/sc8551-standalone/charging_enabled</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
 </resources>
