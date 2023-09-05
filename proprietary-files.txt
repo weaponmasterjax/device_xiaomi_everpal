@@ -1582,6 +1582,7 @@ vendor/etc/init/camerahalserver.rc
 vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/em_hidl_user.rc
+vendor/etc/init/gbe.rc
 vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/init.bt_drv.rc
 vendor/etc/init/init.connfem.rc
@@ -1595,6 +1596,8 @@ vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
+vendor/etc/init/mtk_agpsd_p.rc
+vendor/etc/init/mtkrild.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
