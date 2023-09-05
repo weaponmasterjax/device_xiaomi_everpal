@@ -339,7 +339,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -354,7 +353,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -764,7 +762,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -781,7 +778,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -798,7 +794,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -813,7 +808,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -828,7 +822,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -843,7 +836,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -858,7 +850,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -869,7 +860,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -884,7 +874,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -899,7 +888,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -914,7 +902,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -929,7 +916,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -1118,7 +1104,6 @@ any software that is unrelated to enhancing end-user experience. -->
         <Activity name="Common">
             <FPS value="Common">
                 <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -1288,7 +1273,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="10000"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_WARM" param1="5000"></data>
@@ -1504,7 +1488,6 @@ any software that is unrelated to enhancing end-user experience. -->
     <Package name="com.netease.dwrg.mi">
         <Activity name="Common">
             <FPS value="Common">
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -1528,7 +1511,6 @@ any software that is unrelated to enhancing end-user experience. -->
     <Package name="com.android.settings">
         <Activity name="com.android.settings.SubSettings">
             <FPS value="Common">
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -1541,7 +1523,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="250000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -1553,7 +1534,6 @@ any software that is unrelated to enhancing end-user experience. -->
     <Package name="com.eg.android.AlipayGphone">
         <Activity name="Common">
             <FPS value="Common">
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="2000"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_WARM" param1="1000"></data>
@@ -1673,7 +1653,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="250000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="2"></data>
                 <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_WARM" param1="1"></data>
@@ -1686,7 +1665,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -1699,7 +1677,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="250000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
@@ -1834,6 +1811,7 @@ any software that is unrelated to enhancing end-user experience. -->
     <Package name="com.ngame.allstar.eu">
         <Activity name="Common">
             <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
                 <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
                 <data cmd="PERF_RES_FPS_FBT_RESCUE_F" param1="100"></data>
                 <data cmd="PERF_RES_FPS_FBT_RESCUE_PERCENT" param1="50"></data>
@@ -1843,13 +1821,17 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_FPS_FBT_MIN_RESCUE_PERCENT" param1="50"></data>
                 <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_FPS_GBE1_ENABLE" param1="1"></data>
+                <data cmd="PERF_RES_FPS_GBE2_ENABLE" param1="1"></data>
+                <data cmd="PERF_RES_FPS_GBE2_TIMER2_MS" param1="3000"></data>
+                <data cmd="PERF_RES_FPS_GBE2_MAX_BOOST_CNT" param1="2"></data>
+                <data cmd="PERF_RES_FPS_GBE_POLICY_MASK" param1="31"></data>
             </FPS>
         </Activity>
     </Package>
     <Package name="com.android.thememanager">
         <Activity name="Common">
             <FPS value="Common">
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
@@ -2078,7 +2060,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="25"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -2119,7 +2100,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_OPP" param1="0"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="250000000"></data>
                 <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_ACTIVE_TIME" param1="1"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
@@ -2133,7 +2113,6 @@ any software that is unrelated to enhancing end-user experience. -->
                 <data cmd="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" param1="80"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_ADJ_LOADING" param1="1"></data>
                 <data cmd="PERF_RES_FPS_FPSGO_LLF_TH" param1="25"></data>
-                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
                 <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
             </FPS>
         </Activity>
