@@ -35,6 +35,7 @@ void set_variant_props(const variant_info_t variant) {
     set_ro_build_prop("brand", variant.brand, true);
     set_ro_build_prop("device", variant.device, true);
     set_ro_build_prop("name", variant.name, true);
+    set_ro_build_prop("manufacturer", variant.manufacturer, true);
     set_ro_build_prop("marketname", variant.marketname, true);
     set_ro_build_prop("model", variant.model, true);
 
