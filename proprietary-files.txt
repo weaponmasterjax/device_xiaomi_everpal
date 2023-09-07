@@ -2722,7 +2722,6 @@ vendor/lib64/librpc.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libscltm.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libsfplugin_ccodec_utils.so
 vendor/lib64/libshmemcompat.so
 vendor/lib64/libshmemutil.so
 vendor/lib64/libsimlock.so
