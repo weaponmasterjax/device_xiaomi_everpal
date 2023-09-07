@@ -353,6 +353,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.1.vendor \
     android.hardware.radio@1.6.vendor:64
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-lite
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.enableswap \
