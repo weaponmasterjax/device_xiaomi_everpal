@@ -873,15 +873,6 @@ system_ext/lib/libaudiotoolkit.so
 system_ext/lib64/libaudiotoolkit.so
 vendor/lib64/libaudiotoolkit_vendor.so
 
-# Fido
-vendor/bin/fidoca
-vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mfidoca.xml
-vendor/lib/libmfido.so
-vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
-vendor/lib64/libmfido.so
-vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
-
 # Fingerprint
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/etc/permissions/com.fingerprints.fpmmi.xml
