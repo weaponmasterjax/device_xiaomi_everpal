@@ -2785,7 +2785,6 @@ vendor/lib64/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib64/shared-file-region-aidl-cpp.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/wechat.beanpod.so
--vendor/priv-app/GpuGameDriver.mt6833/GpuGameDriver.mt6833.apk
 vendor/res/images/lcd_test_00.png
 vendor/res/images/lcd_test_01.png
 vendor/res/images/lcd_test_02.png
