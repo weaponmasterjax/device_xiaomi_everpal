@@ -1133,9 +1133,9 @@ vendor/lib64/nfc_nci.st21nfc.st.so|b596f493693e6248b00de26b3ce6e5fa090cf1e6
 
 # Power
 -vendor/lib/libpowerhal.so
-vendor/lib/hw/power.default.so
+vendor/lib/hw/power.default.so:vendor/lib/hw/power.mt6833.so
 -vendor/lib64/libpowerhal.so
-vendor/lib64/hw/power.default.so
+vendor/lib64/hw/power.default.so:vendor/lib64/hw/power.mt6833.so
 
 # Radio
 vendor/lib/libvsim.so
