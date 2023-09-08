@@ -1131,6 +1131,7 @@ vendor/lib64/mt6833/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so|271
 vendor/etc/libnfc-hal-st.conf|607ff69b048139c444e7db5b2fb4844fc124db5f
 vendor/etc/libnfc-nci.conf|5032c35bd12a3dc2b5bdb0a8d6811a7e73090e22
 vendor/etc/st21nfc_conf.txt|c254274373db231ed2e31c52db3669d847996fb1
+vendor/firmware/st21nfc_fw7.bin|911906c79d9bdce044e74165036c63dc1295b852
 vendor/lib64/libnxp_extamp_intf.so|8e80561f2f9783294a01c778a376aab2a6554609
 vendor/lib64/nfc_nci.st21nfc.st.so|b596f493693e6248b00de26b3ce6e5fa090cf1e6
 
