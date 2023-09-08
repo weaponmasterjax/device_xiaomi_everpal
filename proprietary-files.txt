@@ -1864,7 +1864,6 @@ vendor/lib/libvcodecdrv_header_stub.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libviagpsrpc.so
-vendor/lib/libvorbisidec.so
 vendor/lib/libvow_ap_test_aa.so
 vendor/lib/libvow_ap_test_dd.so
 vendor/lib/libvow_ap_test_ha.so
