@@ -1593,7 +1593,6 @@ vendor/bin/ccci_rpcd
 vendor/bin/chipinfo
 vendor/bin/dconfig
 vendor/bin/dexecutor
-vendor/bin/dmabuf_dump
 vendor/bin/dmc_core
 vendor/bin/doeapp-memtester
 vendor/bin/doeapp-sat
