@@ -2112,7 +2112,6 @@ vendor/lib64/libwpfa.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/libwvkeyboxext.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/libz_stable.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
