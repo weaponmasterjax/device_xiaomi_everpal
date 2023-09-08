@@ -1632,7 +1632,6 @@ vendor/bin/rt5512_calibration
 vendor/bin/rttv
 vendor/bin/stp_dump3
 vendor/bin/teei_daemon
-vendor/bin/vib_cal
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/bin/vpud
