@@ -1832,7 +1832,6 @@ vendor/lib/libnotifyaudiohal.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libnwk_opt_halwrap_vendor.so
-vendor/lib/libopus.so
 vendor/lib/libpcap.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpixelflinger.so
