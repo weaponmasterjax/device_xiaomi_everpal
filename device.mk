@@ -436,6 +436,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl
 
+# Text classifier
+PRODUCT_PACKAGES += \
+    libtextclassifier_hash.vendor:64
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
