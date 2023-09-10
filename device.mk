@@ -72,8 +72,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio_policy.stub \
     libaudiofoundation.vendor \
-    libaudiopreprocessing \
-    libhapticgenerator
+    libaudiopreprocessing
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -465,7 +464,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.everpal
+    android.hardware.vibrator-service-awinic
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
