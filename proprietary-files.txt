@@ -1363,18 +1363,11 @@ vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/bin/mi_thermald
-vendor/bin/thermal
-vendor/bin/thermalloadalgod
-vendor/bin/thermal_manager
 vendor/etc/.tp/.thermal_policy_08
+vendor/etc/.tp/.ht120.mtc
 vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
-vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
-vendor/etc/init/init.thermal.rc
-vendor/etc/init/init.thermalloadalgod.rc
-vendor/etc/init/init.thermal_manager.rc
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
@@ -1391,13 +1384,6 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
-vendor/lib/hw/android.hardware.thermal@2.0-impl.so
-vendor/lib/libthermalalgo.so
-vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
-
-# Thermal (Hardware)
-vendor/lib/hw/thermal_hal.so
-vendor/lib64/hw/thermal_hal.so
 
 # THH (TA)
 vendor/thh/ta/020f0000000000000000000000000000.ta
@@ -1499,7 +1485,6 @@ vendor/bin/vsimd
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
-vendor/etc/.tp/.ht120.mtc
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/apdb/APDB_MT6853_S01__W2236
 vendor/etc/apdb/APDB_MT6853_S01__W2236_ENUM
