@@ -56,17 +56,13 @@ fi
 # Patch/fix blobs
 function blob_fixup {
     case "$1" in
-    vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
-        ;&
-    vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
+    vendor/lib*/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
         "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
         ;;
     vendor/bin/mtk_agpsd)
         "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v32.so" "${2}"
         ;;
-    vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
-        ;&
-    vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b)
+    vendor/bin/hw/android.hardware.media.c2@1.2-mediatek*)
        "$PATCHELF" --replace-needed "libavservices_minijail_vendor.so" "libavservices_minijail.so" "$2"
         ;;
     vendor/lib*/libmtkcam_stdutils.so)
