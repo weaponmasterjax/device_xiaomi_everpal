@@ -478,6 +478,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.nonblocking_ffs=0 \
     persist.adb.nonblocking_ffs=0
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updates
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service-awinic
