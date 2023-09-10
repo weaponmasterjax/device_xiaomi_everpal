@@ -16,7 +16,7 @@
 	{
 		"remote":	"github",
 		"repository":	"LineageOS/android_hardware_mediatek",
-		"target_path":	"hardware/xiaomi",
+		"target_path":	"hardware/mediatek",
 		"branch":	"lineage-20"
 	}
 ]
