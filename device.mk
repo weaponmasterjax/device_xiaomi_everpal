@@ -336,6 +336,9 @@ PRODUCT_PACKAGES += \
     libmtkperf_client \
     libmtkperf_client_vendor
 
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower@1.2.vendor
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
