@@ -158,6 +158,9 @@ ro.hardware.kmsetkey=beanpod
 
 # Media
 media.c2.dmabuf.padding=3072
+ro.vendor.mtk_flv_playback_support=1
+media.stagefright.thumbnail.prefer_hw_codecs=true
+vendor.mtk_thumbnail_optimization=true
 
 # MediaTek
 ro.vendor.mediatek.platform=MT6833
