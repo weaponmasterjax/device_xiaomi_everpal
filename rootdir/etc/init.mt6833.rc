@@ -3,12 +3,8 @@
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.mt6833.usb.rc
 import /vendor/etc/init/hw/init.project.rc
-import /FWUpgradeInit.rc
-import /vendor/etc/init/hw/init.volte.rc
-import /vendor/etc/init/hw/init.mal.rc
 import /vendor/etc/init/hw/init.sensor_2_0.rc
 import /vendor/etc/init/hw/init.stnfc.rc
-import /system/etc/init/hw/init.stnfc.rc
 
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
 import /vendor/etc/init/hw/init.modem.rc
@@ -1025,34 +1021,6 @@ on property:vold.decrypt=trigger_shutdown_framework
 on property:persist.vendor.uartconsole.enable=*
     write /proc/mtprintk ${persist.vendor.uartconsole.enable}
 
-#+ExtR HONGMI-121738,jiyanan.wt,Add,20220114,set sar function
-#WiFi add sar parameter K16B GL
-on property:vendor.sysctl.tx=5
-      exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 5"
-#-ExtR HONGMI-121738,jiyanan.wt,Add,20220114,set sar function
-
-#+ExtB HONGMI-85945,liupeng.wt.Add,20210624 添加WIFI降SAR功能
-#WiFi add sar parameter GL
-on property:vendor.sysctl.tx=4
-    exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 4"
-
-#WiFi add sar parameter IN
-on property:vendor.sysctl.tx=3
-    exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 3"
-
-#WiFi add sar parameter JP
-on property:vendor.sysctl.tx=2
-    exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 2"
-
-#WiFi add sar parameter CN
-on property:vendor.sysctl.tx=1
-    exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 1"
-
-#WiFi restore sar parameter
-on property:vendor.sysctl.tx=0
-    exec - root -- /system/bin/iwpriv wlan0 driver "SET_PWR_CTRL MySar 0"
-#-ExtB HONGMI-85945,liupeng.wt.Add,20210624 添加WIFI降SAR功能
-
 # bugreport is triggered by holding down volume down, volume up and power
 service bugreport /system/bin/dumpstate -d -p -B -z \
         -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
@@ -1109,39 +1077,9 @@ on property:sys.boot_completed=1
     write /proc/bootprof 0
     write /proc/mtprintk ${persist.vendor.uartconsole.enable}
 
-#service dpfd /vendor/bin/dpfd
-#	user root
-#	group system media
-
 #
 #  External Modme control related services
 #
-
-#
-#  Modem related services (Begin)
-#
-##Add by T.Zh for ppp daemon
-#service pppd /system/bin/pppd file /data/misc/ppp/ppp_options
-#    user root
-#    disabled
-#    oneshot
-#
-##
-#
-#  Modem related services (End)
-#
-
-#add for power-off alarm
-#service poad /vendor/bin/poad
-#    class main
-#    user system
-#    group system
-#    oneshot
-
-#service BGW /vendor/xbin/BGW
-#	user system
-#	group gps system radio
-#	class main
 
 # Battery info
 on property:persist.vendor.mediatek.fg.disable=1
@@ -1163,6 +1101,10 @@ on property:persist.vendor.mediatek.fg.log.enable=1
     write /sys/devices/platform/battery_meter/FG_daemon_log_level 7
     write /sys/bus/platform/devices/battery/FG_daemon_log_level 7
     write /proc/sys/kernel/printk 8
+
+# start meta_tst for ATM
+on property:sys.boot_completed=1 && property:ro.boot.atm=enable
+    start meta_tst
 
 # add meta_tst for ATM
 service meta_tst /vendor/bin/meta_tst
@@ -1197,13 +1139,6 @@ on boot
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
-# VSIM service (vendor OSI)
-service osi /system/bin/osi
-    class main
-    user root
-    disabled
-    oneshot
-    #seclabel u:r:osi:s0
 
 service mi_thermald /system/vendor/bin/mi_thermald
     class main
