@@ -123,9 +123,6 @@ ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 # Gatekeeper
 ro.hardware.gatekeeper=beanpod
 
-# GPU
-ro.gfx.driver.0=com.mediatek.mt6833.gamedriver
-
 # Graphics
 ro.hardware.egl=meow
 ro.hardware.hwcomposer=mtk_common
