@@ -90,6 +90,7 @@ debug.mediatek.disp_decompress=1
 debug.svi.logs=1
 
 # Display
+debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 debug.sf.disable_client_composition_cache=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
