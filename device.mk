@@ -363,14 +363,12 @@ PRODUCT_PACKAGES += \
     fstab.mt6833
 
 PRODUCT_PACKAGES += \
-    init.connectivity.common.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6833.rc \
     init.mt6833.usb.rc \
     init.project.rc \
-    init.sensor_2_0.rc \
-    init_connectivity.rc
+    init.sensor_2_0.rc
 
 PRODUCT_PACKAGES += \
     ueventd.mt6833.rc
