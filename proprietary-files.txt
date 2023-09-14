@@ -842,12 +842,10 @@ vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/gralloc.default.so:vendor/lib/hw/gralloc.mt6833.so
-vendor/lib/hw/memtrack.default.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/gralloc.default.so:vendor/lib64/hw/gralloc.mt6833.so
 vendor/lib64/hw/hwcomposer.mt6833.so
-vendor/lib64/hw/memtrack.default.so
 
 # Engineer Mode
 -app/LocationEM2/LocationEM2.apk
