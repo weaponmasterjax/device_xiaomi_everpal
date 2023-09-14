@@ -1072,14 +1072,12 @@ vendor/bin/hw/vendor.mediatek.hardware.charge@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
-vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.charge@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
-vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
 vendor/lib/hw/vendor.mediatek.hardware.charge@1.0-impl.so
@@ -1124,7 +1122,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
-vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.10.so
@@ -1262,7 +1259,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
-vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
@@ -1844,7 +1840,6 @@ vendor/lib/libNoFpsActor.so
 vendor/lib/libnotifyaudiohal.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
-vendor/lib/libnwk_opt_halwrap_vendor.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpkm.so
 vendor/lib/libpowerhalwrap_vendor.so
@@ -2062,7 +2057,6 @@ vendor/lib64/libmvpu_config_data.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
-vendor/lib64/libnwk_opt_halwrap_vendor.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpkm.so
 vendor/lib64/libpqframework.so
@@ -2126,7 +2120,6 @@ vendor/lib64/meta_wifi_data.so
 vendor/lib64/mt6833/libaiselector.so
 vendor/lib64/mt6833/libdpframework.so
 vendor/lib64/mt6833/libpq_prot.so
-vendor/lib64/nwk_opt_imp.so
 vendor/lib64/ov16a1qofilm_mipi_raw_IdxMgr.so
 vendor/lib64/ov16a1qofilm_mipi_raw_tuning.so
 vendor/lib64/ov16a1qqtech_mipi_raw_IdxMgr.so
