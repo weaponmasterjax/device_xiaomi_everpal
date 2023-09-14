@@ -15,6 +15,14 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>android.hardware.memtrack</name>
+        <version>1</version>
+        <interface>
+            <name>IMemtrack</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.nfc</name>
         <interface>
             <name>INfc</name>
