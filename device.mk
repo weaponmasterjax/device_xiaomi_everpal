@@ -101,6 +101,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0
 endif
 
+# Alarm
+PRODUCT_PACKAGES += \
+    DeskClock
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
