@@ -246,6 +246,7 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libavservices_minijail_vendor \
     libavservices_minijail.vendor \
+    libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor
 
