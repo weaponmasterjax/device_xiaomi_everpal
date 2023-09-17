@@ -387,7 +387,8 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.enableswap \
-    fstab.mt6833
+    fstab.mt6833 \
+    fstab.mt6833.ramdisk
 
 PRODUCT_PACKAGES += \
     init.connectivity.rc \
@@ -403,6 +404,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6833:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.mt6833 \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6833.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6833.rc
+
+PRODUCT_PACKAGES += \
+    init.insmod.sh
 
 # RCS
 PRODUCT_PACKAGES += \
