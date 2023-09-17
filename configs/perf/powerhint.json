@@ -266,7 +266,7 @@
     },
     {
       "Name": "PowerHALMainState",
-      "Path": "vendor.powerhal.state",
+      "Path": "vendor.mediatek.powerhal.state",
       "Values": [
         "SUSTAINED_PERFORMANCE",
         ""
@@ -275,7 +275,7 @@
     },
     {
       "Name": "PowerHALAudioState",
-      "Path": "vendor.powerhal.audio",
+      "Path": "vendor.mediatek.powerhal.audio",
       "Values": [
         "AUDIO_STREAMING_LOW_LATENCY",
         ""
@@ -284,7 +284,7 @@
     },
     {
       "Name": "PowerHALRenderingState",
-      "Path": "vendor.powerhal.rendering",
+      "Path": "vendor.mediatek.powerhal.rendering",
       "Values": [
         "EXPENSIVE_RENDERING",
         ""
