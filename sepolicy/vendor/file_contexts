@@ -14,6 +14,9 @@
 # NFC
 /vendor/bin/hw/android\.hardware\.nfc-service\.st          u:object_r:hal_nfc_default_exec:s0
 
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.mediatek-libperfmgr u:object_r:hal_power_default_exec:s0
+
 # Sensors
 /vendor/bin/hw/android\.hardware\.sensors@2\.1-service\.everpal-multihal u:object_r:mtk_hal_sensors_exec:s0
 /dev/elliptic[0-1] u:object_r:sensor_device:s0
