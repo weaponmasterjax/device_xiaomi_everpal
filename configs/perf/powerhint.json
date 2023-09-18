@@ -213,6 +213,16 @@
       "DefaultIndex": 3
     },
     {
+      "Name": "CPUSchedBoost",
+      "Path": "/sys/devices/system/cpu/sched/sched_boost",
+      "Values": [
+        "0",
+        "3",
+        "6"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "CCIFreqMode",
       "Path": "/proc/cpufreq/cpufreq_cci_mode",
       "Values": [
@@ -412,6 +422,12 @@
       "Node": "CPULittleClusterMinFreq",
       "Duration": 3000,
       "Value": "2000000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "CPUSchedBoost",
+      "Duration": 5000,
+      "Value": "6"
     },
     {
       "PowerHint": "LAUNCH",
