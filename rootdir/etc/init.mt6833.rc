@@ -1123,7 +1123,7 @@ on boot
     stop console
 
 # Offline Charging daemon
-service vendor.charger /system/bin/chargeonlymode
+service charger /system/bin/charger
     class charger
     user system
     group system graphics wakelock input
