@@ -243,10 +243,6 @@
          fading edges is prohibitively expensive on most GPUs. -->
      <bool name="config_ui_enableFadingMarquee">true</bool>
 
-    <!-- Pocket Lock -->
-     <bool name="config_pocketModeSupported">false</bool>
-     <bool name="config_pocketUseLightSensor">false</bool>
-
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
      <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
