@@ -113,8 +113,6 @@ on charger
     start fuelgauged
     start fuelgauged_nvram
 
-    start mi_thermald
-
     # Stop bootprof
     write /proc/bootprof "0"
 
@@ -1111,12 +1109,6 @@ on boot
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
-
-service mi_thermald /system/vendor/bin/mi_thermald
-    class main
-    user root
-    group system
-    seclabel u:r:mi_thermald:s0
 
 # Stop Serial Console
 on boot
