@@ -3,6 +3,7 @@ allow mtk_hal_camera camera_persist_file:file create_file_perms;
 
 allow mtk_hal_camera persist_data_file:dir r_dir_perms;
 allow mtk_hal_camera proc_stat:file r_file_perms;
+allow mtk_hal_camera default_prop:file { read };
 
 set_prop(mtk_hal_camera, system_camera_prop)
 get_prop(mtk_hal_camera, system_camera_prop)
