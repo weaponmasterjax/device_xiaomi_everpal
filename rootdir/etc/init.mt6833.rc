@@ -105,10 +105,3 @@ on property:sys.tp.grip_enable=90
     write /proc/nvt_edge_reject_switch 3
 on property:sys.tp.grip_enable=270
     write /proc/nvt_edge_reject_switch 2
-
-service charger /system/bin/charger
-    class charger
-    critical
-    #seclabel u:r:charger:s0
-    group system graphics
-    seclabel u:r:healthd:s0
