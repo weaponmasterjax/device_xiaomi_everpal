@@ -19,6 +19,9 @@ $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# MIUI Dolby
+$(call inherit-product-if-exists, vendor/xiaomi/dolby/miuidolby.mk)
+
 # Silence vendor logspam
 include $(LOCAL_PATH)/configs/props/vendor_logtags.mk
 
