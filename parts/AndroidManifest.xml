@@ -90,5 +90,10 @@
             android:permission="RefreshService">
         </service>
 
+        <service
+            android:name=".doze.PocketService"
+            android:permission="PocketService">
+        </service>
+
     </application>
 </manifest>
