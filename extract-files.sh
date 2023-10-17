@@ -85,6 +85,10 @@ function blob_fixup {
     lib64/libsink.so)
         "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
         ;;
+    vendor/lib*/libwvhidl.so | vendor/lib*/mediadrm/libwvdrmengine.so)
+        grep -q "libprotobuf-cpp-lite-3.9.1.so" "${2}" && \
+        "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+        ;;
     vendor/bin/mnld | vendor/lib*/libaalservice.so | vendor/lib*/libcam.utils.sensorprovider.so)
         grep -q "libsensorndkbridge.so" "${2}" && \
         "${PATCHELF}" --replace-needed "libsensorndkbridge.so" "libsensorndkbridge-v33.so" "${2}"
