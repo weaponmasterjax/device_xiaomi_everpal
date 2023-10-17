@@ -1,7 +1,7 @@
 <compatibility-matrix version="5.0" type="framework">
     <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth.audio</name>
-        <version>2</version>
+        <version>3</version>
         <interface>
             <name>IBluetoothAudioProviderFactory</name>
             <instance>default</instance>
