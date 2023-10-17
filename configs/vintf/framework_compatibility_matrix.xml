@@ -8,6 +8,13 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>android.hardware.cas</name>
+        <interface>
+            <name>IMediaCasService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.gnss</name>
         <interface>
             <name>IGnss</name>
