@@ -67,6 +67,13 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>android.hardware.wifi.hostapd</name>
         <interface>
             <name>IHostapd</name>
@@ -168,14 +175,6 @@
         <version>1.0-3</version>
         <interface>
             <name>IUsb</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.wifi</name>
-        <version>1.0-6</version>
-        <interface>
-            <name>IWifi</name>
             <instance>default</instance>
         </interface>
     </hal>
