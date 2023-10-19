@@ -76,6 +76,9 @@ vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/aurisys_param/sixth_param.txt
 vendor/etc/aurisys_param/sixth_param_voip.txt
 
+# Battery
+-vendor/bin/batterysecret
+
 # Camera
 -vendor/bin/hw/camerahalserver
 vendor/etc/camera/com.xiaomi.dcal.wd.golden

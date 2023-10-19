@@ -5,6 +5,13 @@
 //
 
 prebuilt_etc {
+    name: "init.batterysecret.rc",
+    src: "etc/init.batterysecret.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mt6833.rc",
     src: "etc/init.mt6833.rc",
     sub_dir: "init/hw",

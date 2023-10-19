@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.batterysecret.rc \
     init.mt6833.rc
 
 # Soong Namespaces
