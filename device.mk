@@ -420,7 +420,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_vtservice
+    libshim_sink
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \

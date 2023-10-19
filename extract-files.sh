@@ -57,8 +57,8 @@ fi
 function blob_fixup {
     case "$1" in
     lib64/libsink.so)
-        grep -q "libshim_vtservice.so" "${2}" && \
-        "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
+        grep -q "libshim_sink.so" "${2}" || \
+        "${PATCHELF}" --add-needed "libshim_sink.so" "${2}"
         ;;
     vendor/lib*/hw/vendor.mediatek.hardware.pq@*-impl.so)
         grep -q "libutils.so" "${2}" && \
