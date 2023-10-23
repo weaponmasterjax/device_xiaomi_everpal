@@ -589,6 +589,10 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib64/libnvram.so
 -vendor/lib64/libnvram_sec.so
 
+# Secure Element
+-vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+
 # Sensors
 vendor/etc/elliptic_sensor.xml
 -vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
