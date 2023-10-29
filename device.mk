@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayEverpal
+    FrameworksResOverlayEverpal \
+    SystemUIOverlayEverpal
 
 # Recovery
 PRODUCT_COPY_FILES += \
