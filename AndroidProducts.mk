@@ -9,7 +9,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_everpal.mk \
     $(LOCAL_DIR)/derp_everpal.mk \
     $(LOCAL_DIR)/evolution_everpal.mk \
-    $(LOCAL_DIR)/lineage_everpal.mk
+    $(LOCAL_DIR)/lineage_everpal.mk \
+    $(LOCAL_DIR)/potato_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_everpal-user \
@@ -26,4 +27,7 @@ COMMON_LUNCH_CHOICES := \
     evolution_everpal-eng \
     lineage_everpal-user \
     lineage_everpal-userdebug \
-    lineage_everpal-eng
+    lineage_everpal-eng \
+    potato_everpal-user \
+    potato_everpal-userdebug \
+    potato_everpal-eng
