@@ -26,8 +26,6 @@
 <!-- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN -->
 <!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                          -->
 <devices>
-    <device name="qti-haptics"/>
-    <device name="qcom-hv-haptics"/>
     <device name="aw8697_haptic"/>
     <device name="aw8624_haptic"/>
     <device name="awinic_haptic"/>

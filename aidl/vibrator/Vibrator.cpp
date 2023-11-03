@@ -27,7 +27,7 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define LOG_TAG "vendor.qti.vibrator"
+#define LOG_TAG "android.hardware.vibrator"
 
 #include <cutils/properties.h>
 #include <dirent.h>
@@ -107,11 +107,12 @@ InputFFDevice::InputFFDevice()
             continue;
         }
 
-        if (strcmp(name, "qcom-hv-haptics") && strcmp(name, "qti-haptics")
-            && strcmp(name, "aw8697_haptic")
+        if (
+            strcmp(name, "aw8697_haptic")
             && strcmp(name, "aw8624_haptic")
-            && strcmp(name, "awinic_haptic")) {
-            ALOGD("not a qcom/qti haptics device\n");
+            && strcmp(name, "awinic_haptic")
+            ) {
+            ALOGD("not a compatible haptics device\n");
             close(fd);
             continue;
         }
@@ -310,14 +311,14 @@ ndk::ScopedAStatus Vibrator::getCapabilities(int32_t* _aidl_return) {
     if (ff.mSupportEffects)
         *_aidl_return |= IVibrator::CAP_PERFORM_CALLBACK;
 
-    ALOGD("QTI Vibrator reporting capabilities: %d", *_aidl_return);
+    ALOGD("Vibrator reporting capabilities: %d", *_aidl_return);
     return ndk::ScopedAStatus::ok();
 }
 
 ndk::ScopedAStatus Vibrator::off() {
     int ret;
 
-    ALOGD("QTI Vibrator off");
+    ALOGD("Vibrator off");
 
     ret = ff.off();
     if (ret != 0)

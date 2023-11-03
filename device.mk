@@ -33,4 +33,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.everpal
+    android.hardware.vibrator-service.everpal
