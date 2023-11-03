@@ -1144,3 +1144,15 @@ service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.st
     class hal
     user nfc
     group nfc
+
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk
+    chmod 440 /proc/net/unix
+
+# Safetynet bypass
+on boot
+    # selinux nodes, hide permissive state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
