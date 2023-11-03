@@ -1005,7 +1005,8 @@ vendor/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin|18dfcca431a72f8a26ca92fad6f3db60e8d
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin|9fa98689eea3bd6ab91e7faf82ef9fb74b010de1
 
 # Gatekeeper
--vendor/lib64/hw/gatekeeper.beanpod.so
+vendor/lib/hw/gatekeeper.beanpod.so
+vendor/lib64/hw/gatekeeper.beanpod.so
 
 # Graphics
 vendor/lib/egl/egl.cfg
@@ -1822,6 +1823,8 @@ vendor/etc/VideoLog_dynamic.xml
 vendor/etc/wfd_source_capability.csv
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/audio_common-aidl-cpp.so
+vendor/lib/hw/kmsetkey.beanpod.so
+vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libaedv.so
 vendor/lib/libalacdec_mtk.so
@@ -1942,6 +1945,8 @@ vendor/lib/ov50c40ofilm_mipi_raw_tuning.so
 vendor/lib/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/audio_common-aidl-cpp.so
+vendor/lib64/hw/kmsetkey.beanpod.so
+vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/imx355ofilm_mipi_raw_IdxMgr.so
 vendor/lib64/imx355ofilm_mipi_raw_tuning.so
 vendor/lib64/imx355sunny_mipi_raw_IdxMgr.so
