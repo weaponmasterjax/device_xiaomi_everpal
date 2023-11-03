@@ -95,15 +95,6 @@ persist.vendor.vzw_device_type=0
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
 
-# WiFi
-wifi.direct.interface=p2p0
-wifi.interface=wlan0
-ro.mediatek.wlan.wsc=1
-ro.mediatek.wlan.p2p=1
-mediatek.wlan.ctia=0
-wifi.tethering.interface=ap0
-persist.vendor.wfc.sys_wfc_support=1
-
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
