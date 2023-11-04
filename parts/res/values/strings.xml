@@ -15,6 +15,12 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear Speaker</string>
+    <string name="clear_speaker_summary">Play a sound clip to clear speaker.</string>
+    <string name="clear_speaker_description">Function Description:\n\n 1. When there is a slight blockage of the hole, it is recommended to perform this function one or two times;\n\n 2. When there is a serious blockage of the hole, it is recommended to perform this function two to five times, and at the same time, complete the action of hand holding the handset to fling it downward.</string>
+
+
     <!-- Refresh Rate Settings -->
     <string name="refresh_title">App Refresh Rate</string>
     <string name="refresh_summary">Adjust per-app maximum refresh rate</string>
