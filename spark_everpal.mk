@@ -14,7 +14,7 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # Inherit from everpal device
 $(call inherit-product, device/xiaomi/everpal/device.mk)
 
-# EvolutionX Stuff
+# Spark Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -24,6 +24,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 WITH_GAPPS := true
+
+SPARK_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := spark_everpal
