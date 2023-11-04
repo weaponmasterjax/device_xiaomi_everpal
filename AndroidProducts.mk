@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_everpal.mk
+    $(LOCAL_DIR)/spark_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_everpal-user \
-    evolution_everpal-userdebug \
-    evolution_everpal-eng
+    spark_everpal-user \
+    spark_everpal-userdebug \
+    spark_everpal-eng

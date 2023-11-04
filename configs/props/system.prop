@@ -55,6 +55,13 @@ ro.sys.usb.bicr=no
 # Storage
 persist.sys.fuse.passthrough.enable=true
 
+
+# Spark-OS
+ro.spark.device.name=everpal
+ro.spark.group.url=https://t.me/mt6833unified_chat
+ro.spark.maintainer=Jax Sue&Jignesh shukla
+ro.spark.maintainer.username=weaponmasterjax/Jignesh2023
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1

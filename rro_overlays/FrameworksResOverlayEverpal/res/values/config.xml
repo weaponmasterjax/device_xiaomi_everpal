@@ -152,7 +152,7 @@
          to maximize power savings but not all devices support it.
          Refer to autosuspend.h for details.
     -->
-     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
@@ -167,8 +167,15 @@
          to maximize power savings but not all devices support it.
          Refer to power.h for details.
     -->
-     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">false</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+    <bool name="config_pocketUseLightSensor">false</bool>
+    
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
      <bool name="config_setColorTransformAccelerated">true</bool>
 

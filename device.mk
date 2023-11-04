@@ -32,6 +32,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+TARGET_BOARD_PLATFORM := mt6833
+BOARD_USES_QCOM_HARDWARE := false
+
 # A/B
 PRODUCT_PACKAGES += \
     update_engine \
@@ -103,6 +106,7 @@ endif
 # Alarm
 PRODUCT_PACKAGES += \
     DeskClock
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
@@ -300,7 +304,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
