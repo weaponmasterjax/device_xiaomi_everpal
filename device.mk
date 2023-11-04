@@ -451,6 +451,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
+# Updater
+PRODUCT_COPY_FILES += \
+    Updates
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-mediatekv2
@@ -458,7 +462,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.nonblocking_ffs=0 \
     persist.adb.nonblocking_ffs=0
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service-awinic
@@ -485,3 +488,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
+# Copy all Evolution X-specific init rc files
+PRODUCT_COPY_FILES += \
+    vendor/evolution/prebuilt/common/etc/init/init.evolution-x-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.evolution-x-updater.rc
