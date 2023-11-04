@@ -21,7 +21,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-WITH_GAPPS=true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := spark_everpal
