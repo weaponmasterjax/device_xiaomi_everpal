@@ -167,6 +167,11 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    libfmjni \
+    RevampedFMRadio
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
