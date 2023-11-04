@@ -9,7 +9,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     DevicePolicyPrebuilt \
     PrebuiltDeskClockGoogle 
 LOCAL_UNINSTALLABLE_MODULE := true
-LOCAL_REQUIRED_MODULES := Deskclock
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
 include $(BUILD_PREBUILT)
