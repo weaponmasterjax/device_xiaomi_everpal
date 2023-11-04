@@ -335,7 +335,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
 # PowerOffAlarm
-PRODUCT_PACKAGES += PowerOffAlarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm \
+    DeskClock
 
 # Power
 PRODUCT_PACKAGES += \
