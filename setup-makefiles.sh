@@ -6,6 +6,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH=$(cd $(dirname ${BASH_SOURCE[0]}) >/dev/null && pwd)
+[ ! -z "${DEVICE_PATH}" ] && cd ${DEVICE_PATH}
+
 set -e
 
 export DEVICE=everpal
