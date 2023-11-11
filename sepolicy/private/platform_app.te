@@ -1,1 +1,2 @@
 allow platform_app update_engine_service:service_manager { find };
+allow platform_app update_engine:binder { call transfer };
