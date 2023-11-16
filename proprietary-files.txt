@@ -1829,6 +1829,10 @@ vendor/etc/SVIConfig.xml
 vendor/etc/ultrasound.wav
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/VideoLog_dynamic.xml
+vendor/etc/virtual-spn-conf-by-efgid1.xml
+vendor/etc/virtual-spn-conf-by-efpnn.xml
+vendor/etc/virtual-spn-conf-by-efspn.xml
+vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/etc/wfd_source_capability.csv
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/audio_common-aidl-cpp.so
