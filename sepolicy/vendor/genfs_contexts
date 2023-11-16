@@ -1,3 +1,10 @@
+# Fingerprint
+genfscon sysfs /devices/platform/11019000.spi5/spi_master/spi5/spi5.0                                       u:object_r:vendor_fingerprint_data_file:s0
+genfscon sysfs /devices/platform/11019000.spi5/spi_master/spi5/spi5.0/clk_enable                            u:object_r:vendor_fingerprint_data_file:s0
+genfscon sysfs /devices/platform/11019000.spi5/spi_master/spi5/spi5.0/irq                                   u:object_r:vendor_fingerprint_data_file:s0
+genfscon sysfs /devices/platform/11019000.spi5/spi_master/spi5/spi5.0/wakeup_enable                         u:object_r:vendor_fingerprint_data_file:s0
+genfscon sysfs /devices/platform/11019000.spi5/spi_master/spi5/spi5.0/fingerdown_wait                       u:object_r:vendor_fingerprint_data_file:s0
+
 # Power
 genfscon proc  /cpufreq/cpufreq_cci_mode                                                                    u:object_r:proc_cpufreq:s0
 genfscon sysfs /module/fbt_cpu/parameters/bhr_opp                                                           u:object_r:sysfs_fbt_cpu:s0
