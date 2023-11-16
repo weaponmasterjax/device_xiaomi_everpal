@@ -329,9 +329,8 @@ PRODUCT_PACKAGES += PowerOffAlarm
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek \
-    android.hardware.power-V2-ndk.vendor:64 \
-    android.hardware.power@1.2.vendor:64
+    android.hardware.power-service.mediatek-libperfmgr \
+    android.hardware.power@1.3.vendor
 
 PRODUCT_PACKAGES += \
     libmtkperf_client \
@@ -433,6 +432,8 @@ PRODUCT_PACKAGES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/mediatek \
 
 # SoundTrigger
