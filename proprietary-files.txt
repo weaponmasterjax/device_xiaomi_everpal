@@ -681,10 +681,6 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # Firmware
-vendor/etc/firmware/novatek_ts_ct_fw.bin
-vendor/etc/firmware/novatek_ts_ct_mp.bin
-vendor/etc/firmware/novatek_ts_fw.bin
-vendor/etc/firmware/novatek_ts_mp.bin
 vendor/firmware/96_nfcCard_RTP.bin
 vendor/firmware/98_nfcCardSlow_RTP.bin
 vendor/firmware/aw8697_haptic.bin
