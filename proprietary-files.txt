@@ -2711,7 +2711,6 @@ vendor/lib64/libmnl.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmsnr.so
-vendor/lib64/libmt@1.2.so
 vendor/lib64/libmtcloader.so
 vendor/lib64/libmvpu_config_data.so
 vendor/lib64/libNoFpsActor.so
