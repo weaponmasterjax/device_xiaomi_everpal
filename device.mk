@@ -245,9 +245,10 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2.vendor
 
 PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.1.vendor \
     libcodec2_hidl@1.2.vendor \
     libcodec2_vndk.vendor \
-    libavservices_minijail \
+    libavservices_minijail_vendor \
     libavservices_minijail.vendor \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor
