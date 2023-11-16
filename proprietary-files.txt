@@ -875,11 +875,9 @@ vendor/lib64/libaudiotoolkit_vendor.so
 
 # Fingerprint
 vendor/etc/permissions/com.fingerprints.extension.xml
-vendor/etc/permissions/com.fingerprints.fpmmi.xml
 vendor/firmware/168_fingerprintRecord_RTP.bin
 vendor/firmware/fingerprint_record_rtp.bin
 -vendor/framework/com.fingerprints.extension.jar
--vendor/framework/com.fingerprints.fpmmi.jar
 vendor/lib64/com.fingerprints.extension@1.0.so
 -vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 -vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
