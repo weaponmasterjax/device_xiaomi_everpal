@@ -68,9 +68,6 @@ function blob_fixup {
     vendor/lib*/libmtkcam_stdutils.so)
         "$PATCHELF" --replace-needed "libutils.so" "libutils-v32.so" "$2"
         ;;
-    vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service)
-        "$PATCHELF" --replace-needed "android.hardware.power-V2-ndk_platform.so" "android.hardware.power-V2-ndk.so" "${2}"
-        ;;
     vendor/bin/hw/android.hardware.gnss-service.mediatek)
         ;&
     vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so)
@@ -81,9 +78,6 @@ function blob_fixup {
         ;;
     vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
         grep -q "libcamera_metadata_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcamera_metadata_shim.so" "${2}"
-        ;;
-    vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc)
-        echo "$(cat ${2}) input" > "${2}"
         ;;
     vendor/etc/init/init.batterysecret.rc)
 	sed -i 's/seclabel/#seclabel/g' "${2}"
