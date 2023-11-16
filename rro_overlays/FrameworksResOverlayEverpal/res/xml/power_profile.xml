@@ -25,39 +25,39 @@
     </array>
     <array name="cpu.core_speeds.cluster0">
         <value>500000</value>
-        <value>650000</value>
-        <value>703000</value>
-        <value>756000</value>
-        <value>862000</value>
-        <value>968000</value>
-        <value>1048000</value>
-        <value>1128000</value>
-        <value>1287000</value>
-        <value>1393000</value>
+        <value>774000</value>
+        <value>875000</value>
+        <value>975000</value>
+        <value>1075000</value>
+        <value>1175000</value>
+        <value>1275000</value>
+        <value>1375000</value>
         <value>1500000</value>
-        <value>1645000</value>
-        <value>1750000</value>
-        <value>1812000</value>
-        <value>1916000</value>
+        <value>1618000</value>
+        <value>1666000</value>
+        <value>1733000</value>
+        <value>1800000</value>
+        <value>1866000</value>
+        <value>1933000</value>
         <value>2000000</value>
     </array>
     <array name="cpu.core_speeds.cluster1">
-        <value>725000</value>
-        <value>840000</value>
-        <value>898000</value>
-        <value>985000</value>
-        <value>1042000</value>
-        <value>1129000</value>
-        <value>1274000</value>
-        <value>1418000</value>
-        <value>1534000</value>
-        <value>1650000</value>
-        <value>1837000</value>
-        <value>1993000</value>
-        <value>2118000</value>
-        <value>2203000</value>
-        <value>2306000</value>
-        <value>2400000</value>
+        <value>774000</value>
+        <value>835000</value>
+        <value>919000</value>
+        <value>1002000</value>
+        <value>1085000</value>
+        <value>1169000</value>
+        <value>1308000</value>
+        <value>1419000</value>
+        <value>1530000</value>
+        <value>1670000</value>
+        <value>1733000</value>
+        <value>1796000</value>
+        <value>1860000</value>
+        <value>1923000</value>
+        <value>1986000</value>
+        <value>2050000</value>
     </array>
     <array name="cpu.core_power.cluster0">
         <value>32.19</value>
@@ -106,7 +106,7 @@
     <item name="wifi.controller.rx">0</item>
     <item name="wifi.controller.tx">0</item>
     <array name="wifi.controller.tx_levels" />
-    <item name="wifi.controller.voltage">0</item>
+    <item name="wifi.controller.voltage">3300</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>
         <value>.002</value>
@@ -124,7 +124,7 @@
         <value>0</value>
         <value>0</value>
     </array>
-    <item name="modem.controller.voltage">0</item>
+    <item name="modem.controller.voltage">775</item>
     <array name="gps.signalqualitybased">
         <value>0</value>
         <value>0</value>
