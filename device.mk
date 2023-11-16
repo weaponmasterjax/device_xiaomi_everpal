@@ -93,12 +93,12 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
-ifneq (eng,$(TARGET_BUILD_VARIANT))
 # ADB
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=adb \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
     ro.adb.secure=0
-endif
 
 # Alarm
 PRODUCT_PACKAGES += \
