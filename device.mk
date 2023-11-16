@@ -416,15 +416,9 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlayEverpal \
     WifiOverlayEverpal
 
-ifeq ($(PRODUCT_NAME),evolution_everpal)
-    PRODUCT_PACKAGES += \
-        EvolutionSettingsResEverpal \
-        EvolutionFrameworksResEverpal
-else
-    PRODUCT_PACKAGES += \
-        FrameworksResOverlayEverpal \
-        SettingsOverlayEverpal 
-endif
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayEverpal \
+    SettingsOverlayEverpal
 
 # Screen Resolution
 TARGET_SCREEN_HEIGHT := 2400
