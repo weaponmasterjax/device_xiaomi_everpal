@@ -1489,7 +1489,6 @@ vendor/etc/init/dmc_core.rc
 vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
-vendor/etc/init/gbe.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/init.bt_drv.rc
