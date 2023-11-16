@@ -21,4 +21,3 @@ allow hal_power_default {
 
 # To get/set powerhal state property
 set_prop(hal_power_default, vendor_power_prop);
-allow hal_power_default vendor_default_prop:property_service { set };
