@@ -4,7 +4,7 @@
       "Name": "CPULittleClusterMaxFreq",
       "Path": "/sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq",
       "Values": [
-        "9999999",
+        "-1"
         "2000000",
         "1916000",
         "1812000",
@@ -42,7 +42,8 @@
         "862000",
         "756000",
         "703000",
-        "650000"
+        "650000",
+        "-1"
       ],
       "ResetOnInit": true
     },
@@ -50,7 +51,7 @@
       "Name": "CPUBigClusterMaxFreq",
       "Path": "/sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq",
       "Values": [
-        "9999999",
+        "-1",
         "2400000",
         "2306000",
         "2203000",
@@ -88,7 +89,8 @@
         "1042000",
         "985000",
         "898000",
-        "840000"
+        "840000",
+        "-1"
       ],
       "ResetOnInit": true
     },
