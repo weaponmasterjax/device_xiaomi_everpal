@@ -1389,6 +1389,9 @@ vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
 
+# WiFi
+-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
+
 # Misc
 vendor/bin/AgentTest
 vendor/bin/atcid
