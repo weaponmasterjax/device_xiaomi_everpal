@@ -1410,10 +1410,14 @@ vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
 # Thermal
 vendor/bin/mi_thermald
-vendor/etc/.tp/.thermal_policy_08
-vendor/etc/.tp/.ht120.mtc
+vendor/bin/thermal
+vendor/bin/thermal_manager
+vendor/bin/thermalloadalgod
 vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
+vendor/etc/init/init.thermal.rc
+vendor/etc/init/init.thermal_manager.rc
+vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
@@ -1430,6 +1434,7 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
+vendor/lib/libthermalalgo.so
 
 # THH (TA)
 vendor/thh/ta/020f0000000000000000000000000000.ta
