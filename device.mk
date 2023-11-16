@@ -486,10 +486,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Updates
 
-# Copy all Evolution X-specific init rc files
-PRODUCT_COPY_FILES += \
-    vendor/evolution/prebuilt/common/etc/init/init.evolution-x-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.evolution-x-updater.rc
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service-awinic
