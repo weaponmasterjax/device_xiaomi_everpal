@@ -334,7 +334,7 @@ PRODUCT_PACKAGES += PowerOffAlarm
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr \
+    android.hardware.power-service.mediatek-libperfmgr \
     android.hardware.power@1.3.vendor
 
 PRODUCT_PACKAGES += \
