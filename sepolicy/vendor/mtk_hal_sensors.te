@@ -9,3 +9,5 @@ allow mtk_hal_sensors hal_audio_hwservice:hwservice_manager find;
 
 # Allow mtk_hal_sensors to read/write to sensor device
 allow mtk_hal_sensors sensor_device:chr_file rw_file_perms;
+
+allow mtk_hal_sensors sysfs_leds:dir { search };
