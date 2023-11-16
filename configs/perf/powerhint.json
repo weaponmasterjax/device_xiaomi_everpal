@@ -284,49 +284,49 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "FBTBoostTA",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "2400000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1650000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1812000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUclampMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "50"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "100"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUBlockBoost",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "101"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "DRAMOppMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
