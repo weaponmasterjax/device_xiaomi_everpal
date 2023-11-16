@@ -30,6 +30,11 @@ ro.vendor.mtk_audio_ape_support=1
 ro.vendor.mtk_audio_tuning_tool_ver=V2.2
 ro.vendor.mtk_hifiaudio_support=1
 
+# Dolby
+ro.vendor.audio.device.dbcom=dolby_common
+ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1
+ro.vendor.audio.dolby.dax.support=true
+
 # Codec
 debug.stagefright.omx_default_rank=0
 
