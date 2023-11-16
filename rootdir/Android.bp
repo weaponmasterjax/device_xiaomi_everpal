@@ -65,7 +65,6 @@ prebuilt_etc {
 
 prebuilt_etc {
     name: "fstab.mt6833",
-    ramdisk_available: true,
     src: "etc/fstab.mt6833",
     vendor: true,
 }
