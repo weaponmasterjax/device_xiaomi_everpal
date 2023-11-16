@@ -47,6 +47,8 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
+ro.vendor.bt.platform=connac1x
+ro.vendor.mtk.bt_sap_enable=true
 vendor.bluetooth.ldac.abr=true
 
 # Camera
@@ -186,7 +188,6 @@ ro.mtk_cam_dualzoom_support=1
 ro.mtk_key_manager_support=1
 ro.oem_unlock_supported=1
 ro.vendor.ap_info_monitor=0
-ro.vendor.bt.platform=connac1x
 ro.vendor.cabc.enable=true
 ro.vendor.composer_version=2.1
 ro.vendor.connsys.dedicated.log=1
@@ -200,7 +201,6 @@ ro.vendor.jpeg_decode_sw_opt=1
 ro.vendor.md_log_memdump_wait=15
 ro.vendor.md_prop_ver=1
 ro.vendor.mml.mtk_mml_support=0
-ro.vendor.mtk.bt_sap_enable=true
 ro.vendor.mtk.sensor.support=yes
 ro.vendor.mtk_agps_app=1
 ro.vendor.mtk_blulight_def_support=1
