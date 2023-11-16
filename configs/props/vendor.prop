@@ -38,6 +38,10 @@ ro.vendor.audio.dolby.dax.support=true
 # Codec
 debug.stagefright.omx_default_rank=0
 
+# Misound
+persist.vendor.audio.misound.disable=true
+ro.vendor.audio.bluetooth.support.misound=false
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3700
