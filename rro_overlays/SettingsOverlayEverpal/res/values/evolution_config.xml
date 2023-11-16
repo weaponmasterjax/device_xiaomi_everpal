@@ -12,4 +12,5 @@
 
     <!-- Whether build status should be shown or not. -->
     <bool name="config_show_build_status">true</bool>
+    <bool name="config_show_selinux_status">false</bool>
 </resources>
