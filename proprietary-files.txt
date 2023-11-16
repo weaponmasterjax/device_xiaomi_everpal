@@ -2723,4 +2723,3 @@ vendor/lib64/s5kjn1sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kjn1sunny_mipi_raw_tuning.so
 vendor/lib64/VP9SecureVdecCA.so
 vendor/lib64/wechat.beanpod.so
-vendor/ro.prop
