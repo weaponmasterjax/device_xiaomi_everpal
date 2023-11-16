@@ -1420,9 +1420,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
-# Lights
-vendor/lib64/hw/lights.mt6833.so
-
 # Listen
 vendor/lib/hw/sound_trigger.primary.default.so
 vendor/lib64/hw/sound_trigger.primary.default.so
