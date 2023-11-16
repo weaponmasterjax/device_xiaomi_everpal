@@ -78,12 +78,6 @@
         "IPv4address:port"
   -->
 
-  <cur_supl_profile name="GOOGLE"
-      addr="supl.google.com"
-      port="7275"
-      tls="true"
-  />
-
   <!-- GOOGLE-->
   <supl_profile name="GOOGLE"
       addr="supl.google.com"
