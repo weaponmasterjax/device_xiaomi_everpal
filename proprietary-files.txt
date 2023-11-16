@@ -1603,7 +1603,6 @@ vendor/bin/em_hidl
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
-vendor/bin/getgameserver
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/tetheroffloadservice
@@ -1634,7 +1633,6 @@ vendor/bin/rt5512_calibration
 vendor/bin/rttv
 vendor/bin/stp_dump3
 vendor/bin/teei_daemon
-vendor/bin/testgameserver
 vendor/bin/vib_cal
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
@@ -1689,7 +1687,6 @@ vendor/etc/init/factorybsp_service_mtk.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gbe.rc
-vendor/etc/init/getgameserver.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.batterysecret.rc
 vendor/etc/init/init.bt_drv.rc
@@ -2349,7 +2346,6 @@ vendor/lib64/libfeature_lmv.so
 vendor/lib64/libfeature_rss.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libfile_op.so
-vendor/lib64/libforkexecwrap.so
 vendor/lib64/libformatter.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libgamehdr.so
