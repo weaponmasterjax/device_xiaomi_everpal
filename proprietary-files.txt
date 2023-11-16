@@ -1414,9 +1414,6 @@ vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 -vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 
-# WiFi
--vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
-
 # Xiaomi
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 -vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
