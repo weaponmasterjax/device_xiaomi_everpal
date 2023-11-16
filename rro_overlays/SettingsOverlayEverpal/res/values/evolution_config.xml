@@ -4,12 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Battery health -->
-    <bool name="config_supportBatteryHealth">true</bool>
-    <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
-    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_full</string>
-    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full_design</string>
-
     <!-- Whether build status should be shown or not. -->
     <bool name="config_show_build_status">true</bool>
     <bool name="config_show_selinux_status">false</bool>
