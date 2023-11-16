@@ -466,6 +466,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # VNDK
 PRODUCT_PACKAGES += \
     libcrypto-v32 \
