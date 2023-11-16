@@ -1,4 +1,0 @@
-allow system_app proc_pagetypeinfo:file { read };
-allow system_app sysfs_zram:dir { search };
-allow system_app sysfs_batteryinfo:dir { read open search };
-allow system_app sysfs_batteryinfo:file { read open getattr };
