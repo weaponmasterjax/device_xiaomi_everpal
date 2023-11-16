@@ -265,6 +265,16 @@
       "ResetOnInit": true
     },
     {
+      "Name": "FBTBoostTA",
+      "Path": "/sys/kernel/fpsgo/fbt/boost_ta",
+      "Values": [
+        "0",
+        "1"
+      ],
+      "ResetOnInit": true,
+      "DefaultIndex": 0
+    },
+    {
       "Name": "PowerHALMainState",
       "Path": "vendor.mediatek.powerhal.state",
       "Values": [
