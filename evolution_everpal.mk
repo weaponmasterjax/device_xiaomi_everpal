@@ -29,5 +29,9 @@ PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := everpal
 
+EVO_OTA_VERSION_CODE := thirteen
+PRODUCT_PRODUCT_PROPERTIES += \
+    org.evolution.ota.version_code=$(EVO_OTA_VERSION_CODE)
+
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
