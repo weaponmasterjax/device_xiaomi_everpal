@@ -161,8 +161,8 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
