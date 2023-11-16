@@ -144,6 +144,7 @@ BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := ext4
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := mt6833
+BOARD_HAS_MTK_HARDWARE = true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
