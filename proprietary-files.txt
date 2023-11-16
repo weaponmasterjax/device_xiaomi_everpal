@@ -1708,8 +1708,6 @@ vendor/etc/mdota/MTK_OTA_REL10.mcfota
 vendor/etc/mdota/MTK_OTA_REL11.mcfota
 vendor/etc/MNL_Config.xml
 vendor/etc/mpe.conf
-vendor/etc/mtk_omx_core.cfg
-vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/partition_permission.sh
 vendor/etc/screen_light.xml
 vendor/etc/security/cacerts_supl/09127afb.0
