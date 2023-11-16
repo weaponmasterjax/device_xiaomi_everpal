@@ -3,6 +3,9 @@ ro.camera.sound.forced=0
 ro.audio.silent=0
 ro.audio.usb.period_us=16000
 
+# Spoof miui
+ro.miui.ui.version.name=V140
+
 # Brand
 Build.BRAND=MTK
 
