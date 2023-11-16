@@ -1337,7 +1337,6 @@ vendor/bin/em_hidl
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
-vendor/bin/getgameserver
 vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/tetheroffloadservice
