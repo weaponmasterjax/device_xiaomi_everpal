@@ -1985,6 +1985,7 @@ vendor/lib64/libfeature_lmv.so
 vendor/lib64/libfeature_rss.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libfile_op.so
+vendor/lib64/libforkexecwrap.so
 vendor/lib64/libformatter.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libgamehdr.so
