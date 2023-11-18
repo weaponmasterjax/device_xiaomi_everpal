@@ -457,7 +457,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl
+    android.hardware.soundtrigger@2.3-impl:32
 
 # Text classifier
 PRODUCT_PACKAGES += \
