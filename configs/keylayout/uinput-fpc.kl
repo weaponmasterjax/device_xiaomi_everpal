@@ -12,3 +12,9 @@
 #key  102   HOME         VIRTUAL
 #key  108   SYSTEM_NAVIGATION_DOWN
 #key  103   SYSTEM_NAVIGATION_DOWN
+
+# Single Tap
+#key 105   DPAD_CENTER VIRTUAL
+
+# Double Tap
+#key 106   BUTTON_C VIRTUAL
