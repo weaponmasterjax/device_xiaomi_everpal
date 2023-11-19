@@ -277,7 +277,8 @@ PRODUCT_COPY_FILES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     libruy \
-    android.hardware.neuralnetworks@1.3.vendor:64
+    android.hardware.neuralnetworks@1.3.vendor:64 \
+    android.hidl.allocator@1.0.vendor
 
 # NFC
 PRODUCT_COPY_FILES += \
