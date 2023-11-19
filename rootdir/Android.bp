@@ -68,3 +68,9 @@ prebuilt_etc {
     src: "etc/fstab.mt6833",
     vendor: true,
 }
+
+sh_binary {
+    name: "init.goodix.events.sh",
+    src: "etc/init.goodix.events.sh",
+    vendor: true,
+}

@@ -397,7 +397,8 @@ PRODUCT_PACKAGES += \
     init.mt6833.rc \
     init.mt6833.usb.rc \
     init.project.rc \
-    init.sensor_2_0.rc
+    init.sensor_2_0.rc \
+    init.goodix.events.sh
 
 PRODUCT_PACKAGES += \
     ueventd.mt6833.rc
