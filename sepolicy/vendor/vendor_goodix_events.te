@@ -8,6 +8,6 @@ allow vendor_goodix_events proc:file r_file_perms;
 allow vendor_goodix_events input_device:chr_file { rw_file_perms unlink };
 allow vendor_goodix_events input_device:dir create_dir_perms;
 allow vendor_goodix_events vendor_toolbox_exec:file rx_file_perms;
-allow vendor_goodix_events proc_bus_input:file { read };
+allow vendor_goodix_events proc_bus_input:file { read open write };
 
 vndbinder_use(vendor_goodix_events)
