@@ -37,3 +37,6 @@
 
 # Vibrator
 /vendor/bin/hw/android\.hardware\.vibrator-service-awinic       u:object_r:hal_vibrator_default_exec:s0
+
+# Fix Goodix events
+/vendor/bin/init.goodix.events.sh                                       u:object_r:vendor_goodix_events_exec:s0

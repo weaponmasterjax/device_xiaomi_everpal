@@ -1153,3 +1153,13 @@ on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk
     chmod 440 /proc/net/unix
+
+service vendor.goodix-events /vendor/bin/init.goodix.events.sh
+    class late_start
+    user root
+    group root system input
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start vendor.goodix-events
