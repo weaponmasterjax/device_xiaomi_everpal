@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources.vendor:64 \
     android.hardware.graphics.composer@2.1.vendor:64 \
     android.hardware.memtrack-service.mediatek-mali \
+    android.hardware.graphics.allocator@4.0-impl  \
     disable_configstore \
     libdrm.vendor
 
