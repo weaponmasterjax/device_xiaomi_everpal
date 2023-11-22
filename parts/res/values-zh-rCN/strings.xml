@@ -18,21 +18,17 @@
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">扬声器清理</string>
     <string name="clear_speaker_summary">开启后，自动播放30s音频清理扬声器出音孔灰尘</string>
-    <string name="clear_speaker_description">功能说明：\n\n    1.当出现轻微堵孔时，建议执行该功能一到两次;\n\n    2.当出现严重堵孔时，建议执行该功能两到五次，同时完成手握手机向下甩的动作</string>
+    <string name="clear_speaker_description">功能说明：\n\n    1.当出现轻微堵孔时，建议执行该功能一到两次;\n\n    2.当出现严重堵孔时，建议执行该功能两到五次，同时完成手握手机向下甩的动作\n\n 警告：请勿在连接耳机时使用该功能</string>
 
     <!-- Refresh rate -->
     <string name="refresh_title">刷新率设置</string>
     <string name="refresh_summary">设置特定应用的最大刷新率</string>
     <string name="refresh_default">默认</string>
     <string name="refresh_standard">标准 (60Hz)</string>
-    <string name="refresh_high">高刷 (90Hz)</string>
+    <string name="refresh_high">遥遥领先 (90Hz)</string>
+
     <!-- Dolby Atmos -->
     <string name="dolby_title">杜比全景声</string>
     <string name="dolby_enable">启用杜比全景声</string>
     <string name="dolby_summary">环绕音</string>
-    <string name="dolby_profile_title">选择配置</string>
-    <string name="dolby_profile_dynamic">动态</string>
-    <string name="dolby_off">关闭</string>
-    <string name="dolby_on">开启</string>
-    <string name="dolby_on_with_profile">使用 (%1$s)</string>
 </resources>

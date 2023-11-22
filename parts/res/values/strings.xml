@@ -25,6 +25,10 @@
     <!-- Dolby -->
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Setting Dolby Atmos</string>
-    
-    <string name="ambient_enable">Use ambient display</string>
+
+         <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\n Warning: Do not use this with earphone is connected</string>
+
 </resources>
