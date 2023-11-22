@@ -23,5 +23,4 @@
     <integer name="config_parallelSpaceMaxCount">5</integer>
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">false</bool>
-    <bool name="config_pocketUseLightSensor">false</bool>
 </resources>
