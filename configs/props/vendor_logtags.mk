@@ -219,5 +219,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.log.tag.C2MtkBufferManager=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.CCodecBuffers=$(VENDOR_LOG_LEVEL) \
 	persist.log.tag.VPUD=$(VENDOR_LOG_LEVEL) \
-	persist.log.tag.ConstraintSet=$(VENDOR_LOG_LEVEL)
+	persist.log.tag.ConstraintSet=$(VENDOR_LOG_LEVEL) \
+	persist.log.tag.libperfmgr=$(VENDOR_LOG_LEVEL)
 
