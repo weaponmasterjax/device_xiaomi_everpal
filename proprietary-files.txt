@@ -19,6 +19,7 @@ vendor/firmware/aw87xxx_pid_59_voice_0.bin
 -vendor/lib/libaudiotoolkit_vendor.so
 -vendor/lib/libnxp_extamp_intf.so
 -vendor/lib/librt_extamp_intf.so
+-vendor/lib/libsixth.so
 -vendor/lib/libspeechparser_vendor.so
 -vendor/lib/libvow_ap_test_aa.so
 -vendor/lib/libvow_ap_test_dd.so
