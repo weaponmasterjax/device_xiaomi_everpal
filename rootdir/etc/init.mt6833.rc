@@ -1026,12 +1026,10 @@ service bugreport /system/bin/dumpstate -d -p -B -z \
 
 # end boot time fs tune
 on property:sys.boot_completed=1
-
-# update cpus for cpuset cgroup
+    # update cpus for cpuset cgroup
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7
-    write /dev/cpuset/background/cpus 0-3
-    write /dev/cpuset/system-background/cpus 0-5
+    write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/top-app/cpus 0-7
 
     # Setup runtime schedTune
