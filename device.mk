@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/mt6833-common/mt6833.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/cam_opal,$(TARGET_COPY_OUT_VENDOR)/etc/cam_opal)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0.vendor:64
