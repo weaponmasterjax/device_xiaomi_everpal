@@ -540,7 +540,6 @@ vendor/firmware/lib3a.ccu
 -vendor/lib64/lib_sr_models.so
 -vendor/lib64/libaaa_ltm.so
 -vendor/lib64/libaiawb_sun.so
--vendor/lib64/libalacdec_mtk.so
 -vendor/lib64/libanc_dc_base.so
 -vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 -vendor/lib64/libarcsoft_beautyshot.so
@@ -780,6 +779,7 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib/AVCSecureVdecCA.so
 -vendor/lib/HEVCSecureVdecCA.so
 -vendor/lib/VP9SecureVdecCA.so
+-vendor/lib/libalacdec_mtk.so
 -vendor/lib/libMtkOmxAlacDec.so
 -vendor/lib/libcodec2_mtk_c2store.so
 -vendor/lib/libcodec2_mtk_vdec.so
