@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/mt6833-common/mt6833.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/everpal/everpal-vendor.mk)
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayEverpal
+
 # Recovery
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/everpal/proprietary/vendor/firmware/novatek_ts_ct_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_ct_fw.bin \
