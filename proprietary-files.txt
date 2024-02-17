@@ -786,6 +786,11 @@ vendor/lib64/egl/libMEOW_trace.so
 -vendor/lib/libcodec2_mtk_venc.so
 -vendor/lib/libcodec2_vpp_qt_plugin.so
 -vendor/lib/libcodec2_vpp_rs_plugin.so
+-vendor/lib/libcodec2_soft_mtk_alacdec.so
+-vendor/lib/libcodec2_soft_mtk_apedec.so
+-vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so
+-vendor/lib/libcodec2_soft_mtk_mp3dec.so
+-vendor/lib/libcodec2_soft_mtk_msadpcmdec.so
 -vendor/lib/libformatter.so
 -vendor/lib/libvcodec_utility.so
 -vendor/lib/libvcodecdrv.so
