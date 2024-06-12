@@ -432,7 +432,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/xiaomi/mt6833-common \
+    vendor/xiaomi/everpal
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
