@@ -11,12 +11,6 @@ cc_defaults {
 }
 
 cc_library_shared {
-    name: "libmtkperf_client_vendor",
-    vendor: true,
-    defaults: ["libmtkperf_client_defaults"],
-}
-
-cc_library_shared {
     name: "libmtkperf_client",
     defaults: ["libmtkperf_client_defaults"],
 }
