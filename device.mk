@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayEverpal \
-    SystemUIOverlayEverpal
+    SystemUIOverlayEverpal \
+    UpdaterResOverlayEverpal
 
 # Recovery
 PRODUCT_COPY_FILES += \
