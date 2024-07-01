@@ -103,6 +103,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Alarm
 PRODUCT_PACKAGES += \
     DeskClock
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
@@ -485,7 +486,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Updater
 PRODUCT_PACKAGES += \
-    Updates
+    AlphaUpdater
+
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/etc/init/init.lineage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
 
 # Vibrator
 PRODUCT_PACKAGES += \
@@ -517,10 +521,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
-
-# Copy all Evolution X-specific init rc files
-PRODUCT_COPY_FILES += \
-    vendor/evolution/prebuilt/common/etc/init/init.evolution-x-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.evolution-x-updater.rc
 
 # XiaomiParts
 PRODUCT_PACKAGES += \

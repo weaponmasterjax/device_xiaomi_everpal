@@ -22,6 +22,9 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_ENABLE_BLUR := true
 TARGET_BUILD_APERTURE_CAMERA := true
 
+ALPHA_BUILD_TYPE := UNOFFICIAL
+ALPHA_MAINTAINER := weaponmasterjax
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_everpal
 PRODUCT_DEVICE := everpal
