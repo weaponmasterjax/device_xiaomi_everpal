@@ -196,6 +196,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.apuware.utils</name>
+        <version>2.0</version>
+        <interface>
+            <name>IApuwareUtils</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.apmonitor</name>
         <version>2.0</version>
         <interface>

@@ -110,6 +110,11 @@
         <fqname>@2.1::IGoodixFingerprintDaemonExt/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.mediatek.hardware.apuware.utils</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IApuwareUtils/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.apmonitor</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IApmService/apm_hidl_service</fqname>
