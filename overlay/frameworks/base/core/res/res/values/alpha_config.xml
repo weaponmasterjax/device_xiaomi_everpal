@@ -4,6 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Proximity check on screen on -->
-    <bool name="config_proximityCheckOnWake">false</bool>
+    <!-- Smart 5G -->
+    <bool name="config_supportSmart5G">true</bool>
 </resources>
