@@ -25,6 +25,12 @@
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
      <bool name="config_allowAllRotations">true</bool>
+    <!-- The default value for transition animation scale found in developer settings.
+        1.0 corresponds to 1x animator scale, 0 means that there will be no transition
+        animations. Note that this is only a default and will be overridden by a
+        user-set value if toggled by settings so the "Transition animation scale" setting
+        should also be hidden if intended to be permanent. -->
+    <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.9</item>
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -52,6 +58,10 @@
 
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
      <bool name="config_cellBroadcastAppLinks">true</bool>
+    
+    <!-- Speed up the animations -->
+    <fraction name="def_window_animation_scale">90%</fraction>
+    <fraction name="def_window_transition_scale">90%</fraction>
 
     <!-- Flag specifying whether VoLTE is available on device -->
      <bool name="config_device_volte_available">true</bool>
