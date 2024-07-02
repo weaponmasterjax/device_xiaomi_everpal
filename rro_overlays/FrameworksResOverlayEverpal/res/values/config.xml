@@ -288,7 +288,7 @@
      <integer name="config_brightness_ramp_rate_fast">180</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
-     <integer name="config_brightness_ramp_rate_slow">60</integer>
+     <integer name="config_brightness_ramp_rate_slow">40</integer>
 
     <!-- Maximum color temperature, in Kelvin, supported by display white balance. -->
      <integer name="config_displayWhiteBalanceColorTemperatureMax">8000</integer>
