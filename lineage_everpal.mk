@@ -32,11 +32,7 @@ PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := everpal
 
-# TARGET_BUILD_PACKAGE options:
-# 1 - vanilla (default)
-# 2 - microg
-# 3 - gapps
-TARGET_BUILD_PACKAGE := 3
+WITH_GAPPS := true
 
 # TARGET_LAUNCHER options:
 # 1 - stock (default)
