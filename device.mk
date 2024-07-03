@@ -28,6 +28,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 # Silence vendor logspam
 include $(LOCAL_PATH)/configs/props/vendor_logtags.mk
 
+# Include Signing keys. Delete if building you OWN ones.
+include vendor/extra/product.mk
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
