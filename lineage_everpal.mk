@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/everpal/device.mk)
 # Alphadroid Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 
 ALPHA_BUILD_TYPE := UNOFFICIAL
 ALPHA_MAINTAINER := weaponmasterjax
