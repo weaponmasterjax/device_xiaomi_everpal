@@ -148,6 +148,9 @@
     <!-- Should the pinner service pin the Home application? -->
      <bool name="config_pinnerHomeApp">true</bool>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
          When false, autosuspend_disable() will be called before the display is turned on
