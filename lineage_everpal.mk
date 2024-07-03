@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The EvolutionX Project
+# Copyright (C) 2023 The Alphadroid Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -14,7 +14,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Inherit from everpal device
 $(call inherit-product, device/xiaomi/everpal/device.mk)
 
-# EvolutionX Stuff
+# Alphadroid Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -23,15 +23,31 @@ TARGET_ENABLE_BLUR := true
 TARGET_BUILD_APERTURE_CAMERA := true
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := evolution_everpal
+PRODUCT_NAME := lineage_everpal
 PRODUCT_DEVICE := everpal
 PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := everpal
 
-EVO_OTA_VERSION_CODE := thirteen
-PRODUCT_PRODUCT_PROPERTIES += \
-    org.evolution.ota.version_code=$(EVO_OTA_VERSION_CODE)
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
+
+# TARGET_LAUNCHER options:
+# 1 - stock (default)
+# 2 - lawnchair
+# 3 - pixel (valid only on gapps builds)
+TARGET_LAUNCHER := 1
+
+# GAPPS (valid only for GAPPS builds)
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_GOOGLE_TELEPHONY := true
+
 
 # Build info
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

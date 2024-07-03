@@ -1,6 +1,6 @@
 # device_xiaomi_everpal
 Unified Device Tree for evergo, evergreen and opal.
-Copyright (C) 2022 LineageOS,EvolutionX,CipherOS and PixelExperience.
+Copyright (C) 2022 LineageOS,EvolutionX,Alphadroid,CipherOS and PixelExperience.
 
 ## This device tree also support Redmi Note 11 5G(China), Redmi Note 11S and POCO M4 Pro 5G
 The Redmi Note 11T 5G (codenamed _"evergo"_) is a mid-end, low-range smartphone from Xiaomi.
