@@ -341,6 +341,11 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.skia_atrace_enabled=false
 renderthread.skia.reduceopstasksplitting=true
 
+# Suspend properties
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
+
 # TEE
 ro.vendor.mtk_microtrust_tee_support=1
 ro.vendor.mtk_svp_on_mtee_support=1
